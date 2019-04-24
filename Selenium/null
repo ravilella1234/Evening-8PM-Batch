@@ -1,0 +1,15 @@
+1552459727172	geckodriver	INFO	geckodriver 0.19.0
+1552459727181	geckodriver	INFO	Listening on 127.0.0.1:5919
+1552459728003	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\DELL\\AppData\\Local\\Temp\\rust_mozprofile.UyfeNCowTMGi"
+1552459730752	Marionette	INFO	Enabled via --marionette
+[Child 9340] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9340] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1552459736266	Marionette	INFO	Listening on port 56417
+1552459736307	Marionette	INFO	Listening on port 56417
+1552459736333	Marionette	WARN	TLS certificate errors will be ignored for this session
+1552459736390	Marionette	DEBUG	loaded listener.js
+1552459736475	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1552459737348	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1552459737349	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1552459738424	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.bestbuy.com/"
+1552459738626	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.bestbuy.com/"
