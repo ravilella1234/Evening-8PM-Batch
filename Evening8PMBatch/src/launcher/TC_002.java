@@ -9,7 +9,7 @@ public class TC_002 extends BaseTest
 		
 		System.out.println("start");
 		
-		launch("firefoxbrowser");
+		launch("chromebrowser");
 		
 		navigateurl("iciciurl");
 

@@ -4,17 +4,23 @@ import java.io.FileInputStream;
 import java.util.Properties;
 
 import org.openqa.selenium.PageLoadStrategy;
+import org.openqa.selenium.Proxy;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeDriverService;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.edge.EdgeDriverService;
+import org.openqa.selenium.edge.EdgeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.firefox.FirefoxProfile;
 import org.openqa.selenium.firefox.internal.ProfilesIni;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.ie.InternetExplorerDriverService;
+import org.openqa.selenium.ie.InternetExplorerOptions;
+import org.openqa.selenium.remote.CapabilityType;
+import org.openqa.selenium.remote.DesiredCapabilities;
 
 public class BaseTest 
 {
@@ -35,8 +41,29 @@ public class BaseTest
 	{
 		if(p.getProperty(browser).equalsIgnoreCase("CHROME")) 
 		{
+			//logs
+			System.setProperty(ChromeDriverService.CHROME_DRIVER_LOG_PROPERTY, "null");
+			
+			ChromeOptions option=new ChromeOptions();
+			
+			//page load sync
+			option.setPageLoadStrategy(PageLoadStrategy.NORMAL);
+			
+			//Chrome user defined profile
+			option.addArguments("user-data-dir=C:\\Users\\DELL\\AppData\\Local\\Google\\Chrome\\User Data\\Profile 5");
+			
+			
+			//notifications
+			option.addArguments("--disable-notifications");
+			option.addArguments("--disable-infobars");
+			option.addArguments("--start-maximized");
+			
+			//proxy servers  -- //chrome://version
+			//option.addArguments("--proxy-server=http://192.168.90.84:1234");
+			
+			
 			System.setProperty(ChromeDriverService.CHROME_DRIVER_EXE_PROPERTY, System.getProperty("user.dir")+"//drivers//chromedriver.exe");
-			driver=new ChromeDriver();
+			driver=new ChromeDriver(option);
 		}
 		else if(p.getProperty(browser).equalsIgnoreCase("firefox")) 
 		{
@@ -73,13 +100,37 @@ public class BaseTest
 		}
 		else if(p.getProperty(browser).equalsIgnoreCase("ie")) 
 		{
+			//logs
+			System.setProperty(InternetExplorerDriverService.IE_DRIVER_LOGFILE_PROPERTY, "null");
+			
+			InternetExplorerOptions opt=new InternetExplorerOptions();
+			
+			//proxy servers
+			DesiredCapabilities cap=new DesiredCapabilities();
+			
+			String proxy="80.200.90.81:4444";
+			Proxy p =new Proxy();
+			p.setAutodetect(false);
+			p.setProxyType(p.getProxyType());
+			p.setSocksProxy(proxy);
+			cap.setCapability(CapabilityType.PROXY, p);
+			opt.merge(cap);
+			
 			System.setProperty(InternetExplorerDriverService.IE_DRIVER_EXE_PROPERTY, System.getProperty("user.dir")+"//drivers//IEDriverServer.exe");
-			driver=new InternetExplorerDriver();
+			driver=new InternetExplorerDriver(opt);
 		}
 		else if(p.getProperty(browser).equalsIgnoreCase("edge")) 
 		{
+			//logs
+			System.setProperty(EdgeDriverService.EDGE_DRIVER_EXE_PROPERTY, "null");
+			
+			EdgeOptions opt=new EdgeOptions();
+			
+			//page load Strategy
+			opt.setPageLoadStrategy("Normal");
+			
 			System.setProperty(EdgeDriverService.EDGE_DRIVER_EXE_PROPERTY, System.getProperty("user.dir")+"//drivers//MicrosoftWebDriver.exe");
-			driver=new EdgeDriver();
+			driver=new EdgeDriver(opt);
 		}
 	}
 	
