@@ -1,11 +1,11 @@
-[1560352180.058][INFO]: Starting ChromeDriver 74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29})
-[1560352180.058][INFO]: Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
-[1560352181.333][INFO]: [6e9b30f2b493313a061d13ce482eb381] COMMAND InitSession {
+[1561044311.517][INFO]: Starting ChromeDriver 74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29})
+[1561044311.517][INFO]: Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1561044312.563][INFO]: [8b30217d111c045c7f689ebe1b5994fb] COMMAND InitSession {
    "capabilities": {
       "desiredCapabilities": {
          "browserName": "chrome",
          "goog:chromeOptions": {
-            "args": [ "user-data-dir=C:\\Users\\DELL\\AppData\\Local\\Google\\Chrome\\User Data\\Profile 5", "--disable-infobars", "--start-maximized" ],
+            "args": [ "user-data-dir=C:\\Users\\DELL\\AppData\\Local\\Google\\Chrome\\User Data\\Profile 5", "--disable-notifications", "--disable-infobars", "--start-maximized" ],
             "extensions": [  ]
          },
          "pageLoadStrategy": "normal"
@@ -13,7 +13,7 @@
       "firstMatch": [ {
          "browserName": "chrome",
          "goog:chromeOptions": {
-            "args": [ "user-data-dir=C:\\Users\\DELL\\AppData\\Local\\Google\\Chrome\\User Data\\Profile 5", "--disable-infobars", "--start-maximized" ],
+            "args": [ "user-data-dir=C:\\Users\\DELL\\AppData\\Local\\Google\\Chrome\\User Data\\Profile 5", "--disable-notifications", "--disable-infobars", "--start-maximized" ],
             "extensions": [  ]
          },
          "pageLoadStrategy": "normal"
@@ -22,15 +22,15 @@
    "desiredCapabilities": {
       "browserName": "chrome",
       "goog:chromeOptions": {
-         "args": [ "user-data-dir=C:\\Users\\DELL\\AppData\\Local\\Google\\Chrome\\User Data\\Profile 5", "--disable-infobars", "--start-maximized" ],
+         "args": [ "user-data-dir=C:\\Users\\DELL\\AppData\\Local\\Google\\Chrome\\User Data\\Profile 5", "--disable-notifications", "--disable-infobars", "--start-maximized" ],
          "extensions": [  ]
       },
       "pageLoadStrategy": "normal"
    }
 }
-[1560352181.347][INFO]: Populating Preferences file: {
+[1561044312.576][INFO]: Populating Preferences file: {
    "account_id_migration_state": 2,
-   "account_tracker_service_last_update": "13204825203520332",
+   "account_tracker_service_last_update": "13205515161654953",
    "autocomplete": {
       "retention_policy_last_version": 75
    },
@@ -57,64 +57,69 @@
    },
    "countryid_at_install": 18766,
    "data_reduction": {
-      "daily_original_length": [ "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "5614416" ],
+      "daily_original_length": [ "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "5711078", "0", "0", "0", "0", "0", "0", "7871811", "9573023" ],
       "daily_original_length_application": "0",
-      "daily_original_length_unknown": "5614416",
+      "daily_original_length_unknown": "9573023",
       "daily_original_length_via_data_reduction_proxy": [ "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ],
       "daily_original_length_via_data_reduction_proxy_application": "0",
-      "daily_original_length_via_data_reduction_proxy_unknown": "3112917",
+      "daily_original_length_via_data_reduction_proxy_unknown": "9100734",
       "daily_original_length_via_data_reduction_proxy_video": "0",
       "daily_original_length_video": "0",
       "daily_original_length_with_data_reduction_proxy_enabled": [ "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ],
       "daily_original_length_with_data_reduction_proxy_enabled_application": "0",
       "daily_original_length_with_data_reduction_proxy_enabled_unknown": "0",
       "daily_original_length_with_data_reduction_proxy_enabled_video": "0",
-      "daily_received_length": [ "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "5614416" ],
+      "daily_received_length": [ "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "5711078", "0", "0", "0", "0", "0", "0", "7871811", "9573023" ],
       "daily_received_length_application": "0",
       "daily_received_length_https_with_data_reduction_proxy_enabled": [ "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ],
       "daily_received_length_long_bypass_with_data_reduction_proxy_enabled": [ "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ],
       "daily_received_length_short_bypass_with_data_reduction_proxy_enabled": [ "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ],
-      "daily_received_length_unknown": "5614416",
+      "daily_received_length_unknown": "9573023",
       "daily_received_length_unknown_with_data_reduction_proxy_enabled": [ "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ],
       "daily_received_length_via_data_reduction_proxy": [ "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ],
       "daily_received_length_via_data_reduction_proxy_application": "0",
-      "daily_received_length_via_data_reduction_proxy_unknown": "3112917",
+      "daily_received_length_via_data_reduction_proxy_unknown": "9100734",
       "daily_received_length_via_data_reduction_proxy_video": "0",
       "daily_received_length_video": "0",
       "daily_received_length_with_data_reduction_proxy_enabled": [ "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ],
       "daily_received_length_with_data_reduction_proxy_enabled_application": "0",
       "daily_received_length_with_data_reduction_proxy_enabled_unknown": "0",
       "daily_received_length_with_data_reduction_proxy_enabled_video": "0",
-      "last_update_date": "13204751400000000",
+      "last_update_date": "13205442600000000",
+      "last_week_services_downstream_background_kb": {
+
+      },
+      "last_week_services_downstream_foreground_kb": {
+         "112189210": 3,
+         "35473769": 0,
+         "35565745": 5,
+         "41424546": 5,
+         "47815025": 0,
+         "67052219": 0,
+         "78917933": 200,
+         "88863520": 0
+      },
+      "last_week_user_traffic_contenttype_downstream_kb": {
+         "0": 7472
+      },
       "network_properties": {
 
       },
-      "this_week_number": 2579,
+      "this_week_number": 2581,
+      "this_week_services_downstream_background_kb": {
+
+      },
       "this_week_services_downstream_foreground_kb": {
-         "112189210": 4,
-         "115188287": 0,
-         "119542033": 0,
-         "18300705": 0,
-         "21145003": 1874,
          "35473769": 0,
-         "35565745": 7,
-         "47815025": 1,
-         "50464499": 4,
-         "51164680": 12,
-         "5151071": 6,
-         "54845618": 1,
-         "6019475": 272,
-         "61656965": 0,
-         "65957842": 1,
-         "67052219": 4,
-         "78917933": 240,
-         "8561691": 0,
-         "88863520": 0,
-         "95682324": 2,
-         "99279418": 1
+         "35565745": 11,
+         "41424546": 11,
+         "47815025": 0,
+         "67052219": 0,
+         "78917933": 440,
+         "88863520": 0
       },
       "this_week_user_traffic_contenttype_downstream_kb": {
-         "0": 3037
+         "0": 8891
       }
    },
    "default_apps_install_state": 3,
@@ -155,16 +160,16 @@
    },
    "google": {
       "services": {
-         "signin_scoped_device_id": "4a8b6bda-d1b2-4ee5-bca4-73250813cf0a"
+         "signin_scoped_device_id": "d361fb75-0d7e-4f85-b692-81e710b55619"
       }
    },
-   "http_original_content_length": "5614416",
-   "http_received_content_length": "5614416",
+   "http_original_content_length": "23155912",
+   "http_received_content_length": "23155912",
    "invalidator": {
       "client_id": "hizkBaSVrg7qPNWt8RKRNA=="
    },
    "language_model_counters": {
-      "en": 6
+      "en": 29
    },
    "media": {
       "device_id_salt": "20AA59EE76A48AF9518138FA00A083F4",
@@ -174,7 +179,7 @@
    },
    "ntp": {
       "custom_background_local_to_device": false,
-      "num_personal_suggestions": 4
+      "num_personal_suggestions": 5
    },
    "plugins": {
       "plugins_list": [  ]
@@ -241,6 +246,21 @@
 
             },
             "media_engagement": {
+               "https://www.amazon.in:443,*": {
+                  "last_modified": "13205517906224835",
+                  "setting": {
+                     "audiblePlaybacks": 0,
+                     "audioContextPlaybacks": 0,
+                     "hasHighScore": false,
+                     "highScoreChanges": 0,
+                     "lastMediaPlaybackTime": 0.0,
+                     "mediaElementPlaybacks": 0,
+                     "mediaPlaybacks": 0,
+                     "significantPlaybacks": 0,
+                     "visits": 16,
+                     "visitsWithMediaTag": 0
+                  }
+               },
                "https://www.bestbuy.com:443,*": {
                   "last_modified": "13204825339891564",
                   "setting": {
@@ -257,7 +277,7 @@
                   }
                },
                "https://www.icicibank.com:443,*": {
-                  "last_modified": "13204825769288240",
+                  "last_modified": "13204825792874979",
                   "setting": {
                      "audiblePlaybacks": 0,
                      "audioContextPlaybacks": 0,
@@ -267,7 +287,7 @@
                      "mediaElementPlaybacks": 0,
                      "mediaPlaybacks": 0,
                      "significantPlaybacks": 0,
-                     "visits": 4,
+                     "visits": 5,
                      "visitsWithMediaTag": 0
                   }
                },
@@ -340,28 +360,37 @@
 
             },
             "site_engagement": {
-               "https://www.bestbuy.com:443,*": {
-                  "last_modified": "13204825323988636",
+               "https://www.amazon.in:443,*": {
+                  "last_modified": "13205517848866715",
                   "setting": {
-                     "lastEngagementTime": 13204825323988612.0,
+                     "lastEngagementTime": 13205517848866692.0,
+                     "lastShortcutLaunchTime": 0.0,
+                     "pointsAddedToday": 15.0,
+                     "rawScore": 14.437677133824
+                  }
+               },
+               "https://www.bestbuy.com:443,*": {
+                  "last_modified": "13205515163020769",
+                  "setting": {
+                     "lastEngagementTime": 13205456702330176.0,
                      "lastShortcutLaunchTime": 0.0,
                      "pointsAddedToday": 3.0,
                      "rawScore": 3.0
                   }
                },
                "https://www.icicibank.com:443,*": {
-                  "last_modified": "13204825760075405",
+                  "last_modified": "13205515163020841",
                   "setting": {
-                     "lastEngagementTime": 13204825760075384.0,
+                     "lastEngagementTime": 13205457162188644.0,
                      "lastShortcutLaunchTime": 0.0,
-                     "pointsAddedToday": 7.5,
-                     "rawScore": 7.5
+                     "pointsAddedToday": 9.0,
+                     "rawScore": 9.0
                   }
                },
                "https://www.redbus.in:443,*": {
-                  "last_modified": "13204825408010314",
+                  "last_modified": "13205515163020928",
                   "setting": {
-                     "lastEngagementTime": 13204825408010290.0,
+                     "lastEngagementTime": 13205456786351856.0,
                      "lastShortcutLaunchTime": 0.0,
                      "pointsAddedToday": 3.0,
                      "rawScore": 3.0
@@ -393,13 +422,13 @@
       "exit_type": "Normal",
       "exited_cleanly": true,
       "icon_version": 6,
-      "last_engagement_time": "13204825760075383",
+      "last_engagement_time": "13205517848866693",
       "last_time_obsolete_http_credentials_removed": 1560351661.861624,
       "managed_user_id": "",
       "name": "ball",
       "observed_session_time": {
-         "incognito_window_in_product_help_observed_session_time_key": 233.0,
-         "new_tab_in_product_help_observed_session_time_key": 233.0
+         "incognito_window_in_product_help_observed_session_time_key": 447.0,
+         "new_tab_in_product_help_observed_session_time_key": 447.0
       }
    },
    "signin": {
@@ -423,7 +452,7 @@
       "migration_state": 10
    }
 }
-[1560352181.371][INFO]: Populating Local State file: {
+[1561044312.597][INFO]: Populating Local State file: {
    "background_mode": {
       "enabled": false
    },
@@ -433,15 +462,15 @@
    "hardware_acceleration_mode_previous": true,
    "password_manager": {
       "os_password_blank": true,
-      "os_password_last_changed": "13204825538647633"
+      "os_password_last_changed": "13205517888122170"
    },
    "policy": {
-      "last_statistics_update": "13204825361349750"
+      "last_statistics_update": "13205515161235640"
    },
    "profile": {
       "info_cache": {
          "Default": {
-            "active_time": 1560351761.908195,
+            "active_time": 1561041561.616778,
             "avatar_icon": "chrome://theme/IDR_PROFILE_AVATAR_38",
             "background_apps": false,
             "gaia_id": "",
@@ -462,7 +491,7 @@
       "secret": "rQcN/bocXWmUBVffQohPZQoACz1kRzAI/AJqPxcuB8wmdY4B2HmtXOLXe0Pwz85a"
    },
    "shutdown": {
-      "num_processes": 3,
+      "num_processes": 5,
       "num_processes_slow": 1,
       "type": 1
    },
@@ -472,9 +501,9 @@
       }
    },
    "startup_metric": {
-      "last_startup_timestamp": "13204825757972965",
-      "last_startup_version": "75.0.3770.80",
-      "same_version_startup_count": 6
+      "last_startup_timestamp": "13205517846773706",
+      "last_startup_version": "75.0.3770.100",
+      "same_version_startup_count": 11
    },
    "subresource_filter": {
       "ruleset_version": {
@@ -489,9 +518,9 @@
       }
    },
    "tab_stats": {
-      "last_daily_sample": "13204825361918171",
-      "max_tabs_per_window": 2,
-      "total_tab_count_max": 2,
+      "last_daily_sample": "13205515161632019",
+      "max_tabs_per_window": 1,
+      "total_tab_count_max": 1,
       "window_count_max": 1
    },
    "ukm": {
@@ -499,47 +528,41 @@
    },
    "uninstall_metrics": {
       "installation_date2": "1559749160",
-      "launch_count": "6",
-      "page_load_count": "17"
+      "launch_count": "24",
+      "page_load_count": "86"
    },
    "user_experience_metrics": {
       "client_id2": "3364d3a5-3df7-4b60-8c4b-22f15ad4e6f7",
       "client_id_timestamp": "1559635038",
       "low_entropy_source3": 3444,
       "machine_id": 4809022,
-      "session_id": 5,
+      "session_id": 23,
       "stability": {
          "breakpad_registration_fail": 0,
          "breakpad_registration_ok": 0,
-         "browser_last_live_timestamp": "13204825769431013",
+         "browser_last_live_timestamp": "13205517906263451",
          "child_process_crash_count": 0,
          "crash_count": 0,
-         "debugger_not_present": 6,
+         "debugger_not_present": 11,
          "debugger_present": 0,
          "deferred_count": 0,
-         "discard_count": 1,
+         "discard_count": 3,
          "exited_cleanly": true,
          "extension_renderer_crash_count": 0,
          "extension_renderer_failed_launch_count": 0,
-         "extension_renderer_launch_count": 6,
+         "extension_renderer_launch_count": 11,
          "gpu_crash_count": 0,
          "incomplete_session_end_count": 0,
-         "launch_count": 6,
-         "page_load_count": 17,
-         "plugin_stats2": [ {
-            "crashes": 0,
-            "instances": 0,
-            "launches": 1,
-            "loading_errors": 0,
-            "name": "Shockwave Flash"
-         } ],
+         "launch_count": 11,
+         "page_load_count": 49,
+         "plugin_stats2": [  ],
          "renderer_crash_count": 0,
          "renderer_failed_launch_count": 0,
          "renderer_hang_count": 0,
-         "renderer_launch_count": 22,
+         "renderer_launch_count": 61,
          "session_end_completed": true,
-         "stats_buildtime": "1559538000",
-         "stats_version": "75.0.3770.80-64",
+         "stats_buildtime": "1560747600",
+         "stats_version": "75.0.3770.100-64",
          "system_crash_count": 0,
          "version_mismatch_count": 0
       }
@@ -548,11 +571,11 @@
       "restarted": false
    }
 }
-[1560352181.384][INFO]: Cannot switch to US keyboard layout - some keys may be interpreted incorrectly
-[1560352181.384][INFO]: Launching chrome: "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-infobars --disable-popup-blocking --disable-prompt-on-repost --disable-sync --disable-web-resources --enable-automation --enable-blink-features=ShadowDOMV0 --enable-logging --force-fieldtrials=SiteIsolationExtensions/Control --ignore-certificate-errors --load-extension="C:\Users\DELL\AppData\Local\Temp\scoped_dir7100_5911\internal" --log-level=0 --no-first-run --password-store=basic --remote-debugging-port=0 --start-maximized --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\DELL\AppData\Local\Google\Chrome\User Data\Profile 5"
-[1560352182.290][WARNING]: This version of ChromeDriver has not been tested with Chrome version 75.
-[1560352182.334][INFO]: resolved localhost to ["::1","127.0.0.1"]
-[1560352183.451][INFO]: [6e9b30f2b493313a061d13ce482eb381] RESPONSE InitSession {
+[1561044312.606][INFO]: Cannot switch to US keyboard layout - some keys may be interpreted incorrectly
+[1561044312.606][INFO]: Launching chrome: "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-infobars --disable-notifications --disable-popup-blocking --disable-prompt-on-repost --disable-sync --disable-web-resources --enable-automation --enable-blink-features=ShadowDOMV0 --enable-logging --force-fieldtrials=SiteIsolationExtensions/Control --ignore-certificate-errors --load-extension="C:\Users\DELL\AppData\Local\Temp\scoped_dir3036_11256\internal" --log-level=0 --no-first-run --password-store=basic --remote-debugging-port=0 --start-maximized --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\DELL\AppData\Local\Google\Chrome\User Data\Profile 5"
+[1561044313.379][WARNING]: This version of ChromeDriver has not been tested with Chrome version 75.
+[1561044313.399][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1561044314.418][INFO]: [8b30217d111c045c7f689ebe1b5994fb] RESPONSE InitSession {
    "acceptInsecureCerts": false,
    "acceptSslCerts": false,
    "applicationCacheEnabled": false,
@@ -565,7 +588,7 @@
    "cssSelectorsEnabled": true,
    "databaseEnabled": false,
    "goog:chromeOptions": {
-      "debuggerAddress": "localhost:50819"
+      "debuggerAddress": "localhost:53384"
    },
    "handlesAlerts": true,
    "hasTouchScreen": false,
@@ -581,11 +604,70 @@
    },
    "~~~": "..."
 }
-[1560352183.528][INFO]: [6e9b30f2b493313a061d13ce482eb381] COMMAND Navigate {
-   "url": "https://www.icicibank.com/"
+[1561044314.496][INFO]: [8b30217d111c045c7f689ebe1b5994fb] COMMAND Navigate {
+   "url": "https://www.amazon.in"
 }
-[1560352183.528][INFO]: Waiting for pending navigations...
-[1560352183.542][INFO]: Done waiting for pending navigations. Status: ok
-[1560352183.893][INFO]: Waiting for pending navigations...
-[1560352188.291][INFO]: Done waiting for pending navigations. Status: ok
-[1560352188.291][INFO]: [6e9b30f2b493313a061d13ce482eb381] RESPONSE Navigate
+[1561044314.496][INFO]: Waiting for pending navigations...
+[1561044314.512][INFO]: Done waiting for pending navigations. Status: ok
+[1561044314.831][INFO]: Waiting for pending navigations...
+[1561044317.981][INFO]: Done waiting for pending navigations. Status: ok
+[1561044317.981][INFO]: [8b30217d111c045c7f689ebe1b5994fb] RESPONSE Navigate
+[1561044317.992][INFO]: [8b30217d111c045c7f689ebe1b5994fb] COMMAND FindElement {
+   "using": "id",
+   "value": "searchDropdownBox"
+}
+[1561044317.992][INFO]: Waiting for pending navigations...
+[1561044318.002][INFO]: Done waiting for pending navigations. Status: ok
+[1561044318.033][INFO]: Waiting for pending navigations...
+[1561044318.046][INFO]: Done waiting for pending navigations. Status: ok
+[1561044318.046][INFO]: [8b30217d111c045c7f689ebe1b5994fb] RESPONSE FindElement {
+   "ELEMENT": "0.5140225273864811-1"
+}
+[1561044318.056][INFO]: [8b30217d111c045c7f689ebe1b5994fb] COMMAND TypeElement {
+   "id": "0.5140225273864811-1",
+   "value": [ "Books" ]
+}
+[1561044318.056][INFO]: Waiting for pending navigations...
+[1561044318.058][INFO]: Done waiting for pending navigations. Status: ok
+[1561044318.308][INFO]: Waiting for pending navigations...
+[1561044318.517][INFO]: Done waiting for pending navigations. Status: ok
+[1561044318.517][INFO]: [8b30217d111c045c7f689ebe1b5994fb] RESPONSE TypeElement
+[1561044318.524][INFO]: [8b30217d111c045c7f689ebe1b5994fb] COMMAND FindElement {
+   "using": "name",
+   "value": "field-keywords"
+}
+[1561044318.524][INFO]: Waiting for pending navigations...
+[1561044318.525][INFO]: Done waiting for pending navigations. Status: ok
+[1561044318.555][INFO]: Waiting for pending navigations...
+[1561044318.556][INFO]: Done waiting for pending navigations. Status: ok
+[1561044318.556][INFO]: [8b30217d111c045c7f689ebe1b5994fb] RESPONSE FindElement {
+   "ELEMENT": "0.5140225273864811-2"
+}
+[1561044318.562][INFO]: [8b30217d111c045c7f689ebe1b5994fb] COMMAND TypeElement {
+   "id": "0.5140225273864811-2",
+   "value": [ "Harry Potter" ]
+}
+[1561044318.562][INFO]: Waiting for pending navigations...
+[1561044318.563][INFO]: Done waiting for pending navigations. Status: ok
+[1561044318.767][INFO]: Waiting for pending navigations...
+[1561044318.768][INFO]: Done waiting for pending navigations. Status: ok
+[1561044318.768][INFO]: [8b30217d111c045c7f689ebe1b5994fb] RESPONSE TypeElement
+[1561044318.774][INFO]: [8b30217d111c045c7f689ebe1b5994fb] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@class='nav-search-submit nav-sprite']//input[@class='nav-input']"
+}
+[1561044318.774][INFO]: Waiting for pending navigations...
+[1561044318.780][INFO]: Done waiting for pending navigations. Status: ok
+[1561044318.807][INFO]: Waiting for pending navigations...
+[1561044318.808][INFO]: Done waiting for pending navigations. Status: ok
+[1561044318.808][INFO]: [8b30217d111c045c7f689ebe1b5994fb] RESPONSE FindElement {
+   "ELEMENT": "0.5140225273864811-3"
+}
+[1561044318.816][INFO]: [8b30217d111c045c7f689ebe1b5994fb] COMMAND ClickElement {
+   "id": "0.5140225273864811-3"
+}
+[1561044318.816][INFO]: Waiting for pending navigations...
+[1561044318.817][INFO]: Done waiting for pending navigations. Status: ok
+[1561044319.040][INFO]: Waiting for pending navigations...
+[1561044321.836][INFO]: Done waiting for pending navigations. Status: ok
+[1561044321.836][INFO]: [8b30217d111c045c7f689ebe1b5994fb] RESPONSE ClickElement

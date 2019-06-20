@@ -3,6 +3,7 @@ package launcher;
 import java.io.FileInputStream;
 import java.util.Properties;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.PageLoadStrategy;
 import org.openqa.selenium.Proxy;
 import org.openqa.selenium.WebDriver;
@@ -26,7 +27,9 @@ public class BaseTest
 {
 	public static WebDriver driver;
 	public static String path="./data.properties";
+	public static String orPath="./or.properties";
 	public static Properties p;
+	public static Properties or;
 	
 	
 	public static void loadData() throws Exception
@@ -34,6 +37,11 @@ public class BaseTest
 		FileInputStream fis=new FileInputStream(path);
 		p=new Properties();
 		p.load(fis);
+		
+		FileInputStream fis1=new FileInputStream(orPath);
+		or=new Properties();
+		or.load(fis1);
+		
 	}
 	
 	
@@ -137,6 +145,22 @@ public class BaseTest
 	public static void navigateurl(String url) 
 	{
 		driver.get(p.getProperty(url));
+	}
+	
+	
+	public static void clickElement(String locatorKey) 
+	{
+		driver.findElement(By.xpath(or.getProperty(locatorKey))).click();
+	}
+
+	public static void type(String locatorKey, String value) 
+	{
+		driver.findElement(By.name(or.getProperty(locatorKey))).sendKeys(or.getProperty(value));
+	}
+
+	public static void selectValue(String locatorKey, String dropItem) 
+	{
+		driver.findElement(By.id(or.getProperty(locatorKey))).sendKeys(or.getProperty(dropItem));
 	}
 
 }
