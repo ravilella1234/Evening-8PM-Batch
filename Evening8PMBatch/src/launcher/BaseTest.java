@@ -25,6 +25,9 @@ import org.openqa.selenium.ie.InternetExplorerOptions;
 import org.openqa.selenium.remote.CapabilityType;
 import org.openqa.selenium.remote.DesiredCapabilities;
 
+import com.relevantcodes.extentreports.ExtentReports;
+import com.relevantcodes.extentreports.ExtentTest;
+
 public class BaseTest 
 {
 	public static WebDriver driver;
@@ -35,6 +38,9 @@ public class BaseTest
 	public static String logPath=projectPath+"/log4j.properties";
 	public static Properties p;
 	public static Properties or;
+	
+	public static ExtentReports report = ExtentManager.getInstance();
+	public static ExtentTest test;
 	
 	
 	public static void loadData() throws Exception
