@@ -1,6 +1,6 @@
-[1562166530.264][INFO]: Starting ChromeDriver 74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29})
-[1562166530.264][INFO]: Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
-[1562166531.324][INFO]: [b76465d7066b9534f67ea8ff4156ab1b] COMMAND InitSession {
+[1562253025.921][INFO]: Starting ChromeDriver 74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29})
+[1562253025.921][INFO]: Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1562253027.191][INFO]: [80eb3dfd610cceca3c1218190d7e9015] COMMAND InitSession {
    "capabilities": {
       "desiredCapabilities": {
          "browserName": "chrome",
@@ -28,9 +28,9 @@
       "pageLoadStrategy": "normal"
    }
 }
-[1562166531.340][INFO]: Populating Preferences file: {
+[1562253027.211][INFO]: Populating Preferences file: {
    "account_id_migration_state": 2,
-   "account_tracker_service_last_update": "13206638976358971",
+   "account_tracker_service_last_update": "13206725481856618",
    "autocomplete": {
       "retention_policy_last_version": 75
    },
@@ -57,70 +57,71 @@
    },
    "countryid_at_install": 18766,
    "data_reduction": {
-      "daily_original_length": [ "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "5711078", "0", "0", "0", "0", "0", "0", "7871811", "9894622", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "6685250", "2018257" ],
+      "daily_original_length": [ "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "5711078", "0", "0", "0", "0", "0", "0", "7871811", "9894622", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "6685250", "2718959", "2115199" ],
       "daily_original_length_application": "0",
-      "daily_original_length_unknown": "2018257",
+      "daily_original_length_unknown": "2115199",
       "daily_original_length_via_data_reduction_proxy": [ "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ],
       "daily_original_length_via_data_reduction_proxy_application": "0",
-      "daily_original_length_via_data_reduction_proxy_unknown": "1841419",
+      "daily_original_length_via_data_reduction_proxy_unknown": "1683210",
       "daily_original_length_via_data_reduction_proxy_video": "0",
       "daily_original_length_video": "0",
       "daily_original_length_with_data_reduction_proxy_enabled": [ "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ],
       "daily_original_length_with_data_reduction_proxy_enabled_application": "0",
       "daily_original_length_with_data_reduction_proxy_enabled_unknown": "0",
       "daily_original_length_with_data_reduction_proxy_enabled_video": "0",
-      "daily_received_length": [ "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "5711078", "0", "0", "0", "0", "0", "0", "7871811", "9894622", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "6685250", "2018257" ],
+      "daily_received_length": [ "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "5711078", "0", "0", "0", "0", "0", "0", "7871811", "9894622", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "6685250", "2718959", "2115199" ],
       "daily_received_length_application": "0",
       "daily_received_length_https_with_data_reduction_proxy_enabled": [ "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ],
       "daily_received_length_long_bypass_with_data_reduction_proxy_enabled": [ "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ],
       "daily_received_length_short_bypass_with_data_reduction_proxy_enabled": [ "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ],
-      "daily_received_length_unknown": "2018257",
+      "daily_received_length_unknown": "2115199",
       "daily_received_length_unknown_with_data_reduction_proxy_enabled": [ "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ],
       "daily_received_length_via_data_reduction_proxy": [ "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ],
       "daily_received_length_via_data_reduction_proxy_application": "0",
-      "daily_received_length_via_data_reduction_proxy_unknown": "1841419",
+      "daily_received_length_via_data_reduction_proxy_unknown": "1683210",
       "daily_received_length_via_data_reduction_proxy_video": "0",
       "daily_received_length_video": "0",
       "daily_received_length_with_data_reduction_proxy_enabled": [ "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ],
       "daily_received_length_with_data_reduction_proxy_enabled_application": "0",
       "daily_received_length_with_data_reduction_proxy_enabled_unknown": "0",
       "daily_received_length_with_data_reduction_proxy_enabled_video": "0",
-      "last_update_date": "13206565800000000",
+      "last_update_date": "13206652200000000",
       "last_week_services_downstream_background_kb": {
 
       },
       "last_week_services_downstream_foreground_kb": {
+         "112189210": 3,
          "35473769": 0,
-         "35565745": 12,
-         "41424546": 12,
+         "35565745": 11,
+         "41424546": 11,
          "47815025": 0,
+         "54845618": 3,
          "67052219": 0,
-         "78917933": 480,
+         "78917933": 520,
          "88863520": 0
       },
       "last_week_user_traffic_contenttype_downstream_kb": {
-         "0": 9164
+         "0": 8633
       },
       "network_properties": {
 
       },
-      "this_week_number": 2582,
+      "this_week_number": 2583,
       "this_week_services_downstream_background_kb": {
 
       },
       "this_week_services_downstream_foreground_kb": {
-         "112189210": 3,
+         "112189210": 8,
          "35473769": 0,
          "35565745": 10,
          "41424546": 10,
          "47815025": 0,
-         "54845618": 3,
          "67052219": 0,
-         "78917933": 480,
+         "78917933": 400,
          "88863520": 0
       },
       "this_week_user_traffic_contenttype_downstream_kb": {
-         "0": 7990
+         "0": 1646
       }
    },
    "default_apps_install_state": 3,
@@ -161,16 +162,16 @@
    },
    "google": {
       "services": {
-         "signin_scoped_device_id": "4cbdaf47-83f5-4348-962b-4a00f4cc09ca"
+         "signin_scoped_device_id": "0c3ea1b6-97c3-4d1a-8131-54dbac81eba4"
       }
    },
-   "http_original_content_length": "32181018",
-   "http_received_content_length": "32181018",
+   "http_original_content_length": "34996919",
+   "http_received_content_length": "34996919",
    "invalidator": {
       "client_id": "hizkBaSVrg7qPNWt8RKRNA=="
    },
    "language_model_counters": {
-      "en": 50
+      "en": 92
    },
    "media": {
       "device_id_salt": "20AA59EE76A48AF9518138FA00A083F4",
@@ -180,7 +181,7 @@
    },
    "ntp": {
       "custom_background_local_to_device": false,
-      "num_personal_suggestions": 5
+      "num_personal_suggestions": 6
    },
    "plugins": {
       "plugins_list": [  ]
@@ -247,8 +248,8 @@
 
             },
             "media_engagement": {
-               "https://www.amazon.in:443,*": {
-                  "last_modified": "13206640124924884",
+               "http://newtours.demoaut.com:80,*": {
+                  "last_modified": "13206726621468740",
                   "setting": {
                      "audiblePlaybacks": 0,
                      "audioContextPlaybacks": 0,
@@ -258,7 +259,22 @@
                      "mediaElementPlaybacks": 0,
                      "mediaPlaybacks": 0,
                      "significantPlaybacks": 0,
-                     "visits": 27,
+                     "visits": 8,
+                     "visitsWithMediaTag": 0
+                  }
+               },
+               "https://www.amazon.in:443,*": {
+                  "last_modified": "13206725496956102",
+                  "setting": {
+                     "audiblePlaybacks": 0,
+                     "audioContextPlaybacks": 0,
+                     "hasHighScore": false,
+                     "highScoreChanges": 0,
+                     "lastMediaPlaybackTime": 0.0,
+                     "mediaElementPlaybacks": 0,
+                     "mediaPlaybacks": 0,
+                     "significantPlaybacks": 0,
+                     "visits": 30,
                      "visitsWithMediaTag": 0
                   }
                },
@@ -361,37 +377,46 @@
 
             },
             "site_engagement": {
-               "https://www.amazon.in:443,*": {
-                  "last_modified": "13206639990813463",
+               "http://newtours.demoaut.com:80,*": {
+                  "last_modified": "13206726600446287",
                   "setting": {
-                     "lastEngagementTime": 13206639990813444.0,
+                     "lastEngagementTime": 13206726600446264.0,
+                     "lastShortcutLaunchTime": 0.0,
+                     "pointsAddedToday": 13.5,
+                     "rawScore": 13.5
+                  }
+               },
+               "https://www.amazon.in:443,*": {
+                  "last_modified": "13206725484547122",
+                  "setting": {
+                     "lastEngagementTime": 13206725484547102.0,
                      "lastShortcutLaunchTime": 0.0,
                      "pointsAddedToday": 15.0,
-                     "rawScore": 12.689897465859366
+                     "rawScore": 11.897028630916965
                   }
                },
                "https://www.bestbuy.com:443,*": {
-                  "last_modified": "13206638217389589",
+                  "last_modified": "13206725259012517",
                   "setting": {
-                     "lastEngagementTime": 13206517347558626.0,
+                     "lastEngagementTime": 13206573673022054.0,
                      "lastShortcutLaunchTime": 0.0,
                      "pointsAddedToday": 3.0,
                      "rawScore": 3.0
                   }
                },
                "https://www.icicibank.com:443,*": {
-                  "last_modified": "13206638217389666",
+                  "last_modified": "13206725259012597",
                   "setting": {
-                     "lastEngagementTime": 13206517807417094.0,
+                     "lastEngagementTime": 13206574132880522.0,
                      "lastShortcutLaunchTime": 0.0,
                      "pointsAddedToday": 9.0,
                      "rawScore": 9.0
                   }
                },
                "https://www.redbus.in:443,*": {
-                  "last_modified": "13206638217389762",
+                  "last_modified": "13206725259012684",
                   "setting": {
-                     "lastEngagementTime": 13206517431580306.0,
+                     "lastEngagementTime": 13206573757043734.0,
                      "lastShortcutLaunchTime": 0.0,
                      "pointsAddedToday": 3.0,
                      "rawScore": 3.0
@@ -423,13 +448,13 @@
       "exit_type": "Normal",
       "exited_cleanly": true,
       "icon_version": 6,
-      "last_engagement_time": "13206639990813445",
+      "last_engagement_time": "13206726600446265",
       "last_time_obsolete_http_credentials_removed": 1560351661.861624,
       "managed_user_id": "",
       "name": "ball",
       "observed_session_time": {
-         "incognito_window_in_product_help_observed_session_time_key": 614.0,
-         "new_tab_in_product_help_observed_session_time_key": 614.0
+         "incognito_window_in_product_help_observed_session_time_key": 769.0,
+         "new_tab_in_product_help_observed_session_time_key": 769.0
       }
    },
    "signin": {
@@ -453,7 +478,7 @@
       "migration_state": 10
    }
 }
-[1562166531.360][INFO]: Populating Local State file: {
+[1562253027.306][INFO]: Populating Local State file: {
    "background_mode": {
       "enabled": false
    },
@@ -463,15 +488,15 @@
    "hardware_acceleration_mode_previous": true,
    "password_manager": {
       "os_password_blank": true,
-      "os_password_last_changed": "13206640029903865"
+      "os_password_last_changed": "13206726589656455"
    },
    "policy": {
-      "last_statistics_update": "13206638975930848"
+      "last_statistics_update": "13206725481535820"
    },
    "profile": {
       "info_cache": {
          "Default": {
-            "active_time": 1562164616.022065,
+            "active_time": 1562251655.642679,
             "avatar_icon": "chrome://theme/IDR_PROFILE_AVATAR_38",
             "background_apps": false,
             "gaia_id": "",
@@ -492,8 +517,8 @@
       "secret": "rQcN/bocXWmUBVffQohPZQoACz1kRzAI/AJqPxcuB8wmdY4B2HmtXOLXe0Pwz85a"
    },
    "shutdown": {
-      "num_processes": 4,
-      "num_processes_slow": 1,
+      "num_processes": 3,
+      "num_processes_slow": 0,
       "type": 1
    },
    "ssl": {
@@ -502,9 +527,9 @@
       }
    },
    "startup_metric": {
-      "last_startup_timestamp": "13206639988570104",
+      "last_startup_timestamp": "13206726597877945",
       "last_startup_version": "75.0.3770.100",
-      "same_version_startup_count": 22
+      "same_version_startup_count": 33
    },
    "subresource_filter": {
       "ruleset_version": {
@@ -519,18 +544,18 @@
       }
    },
    "tab_stats": {
-      "last_daily_sample": "13206638977758931",
+      "last_daily_sample": "13206725481844605",
       "max_tabs_per_window": 1,
-      "total_tab_count_max": 2,
-      "window_count_max": 2
+      "total_tab_count_max": 1,
+      "window_count_max": 1
    },
    "ukm": {
       "persisted_logs": [  ]
    },
    "uninstall_metrics": {
       "installation_date2": "1559749160",
-      "launch_count": "35",
-      "page_load_count": "139"
+      "launch_count": "46",
+      "page_load_count": "199"
    },
    "updateclientdata": {
       "apps": {
@@ -623,30 +648,30 @@
       "client_id_timestamp": "1559635038",
       "low_entropy_source3": 3444,
       "machine_id": 4809022,
-      "session_id": 34,
+      "session_id": 45,
       "stability": {
          "breakpad_registration_fail": 0,
          "breakpad_registration_ok": 0,
-         "browser_last_live_timestamp": "13206640124973873",
+         "browser_last_live_timestamp": "13206726621496154",
          "child_process_crash_count": 0,
          "crash_count": 0,
-         "debugger_not_present": 22,
+         "debugger_not_present": 33,
          "debugger_present": 0,
          "deferred_count": 0,
          "discard_count": 3,
          "exited_cleanly": true,
          "extension_renderer_crash_count": 0,
          "extension_renderer_failed_launch_count": 0,
-         "extension_renderer_launch_count": 22,
+         "extension_renderer_launch_count": 33,
          "gpu_crash_count": 0,
          "incomplete_session_end_count": 0,
-         "launch_count": 22,
-         "page_load_count": 102,
+         "launch_count": 33,
+         "page_load_count": 162,
          "plugin_stats2": [  ],
          "renderer_crash_count": 0,
          "renderer_failed_launch_count": 0,
          "renderer_hang_count": 0,
-         "renderer_launch_count": 130,
+         "renderer_launch_count": 170,
          "session_end_completed": true,
          "stats_buildtime": "1560747600",
          "stats_version": "75.0.3770.100-64",
@@ -658,11 +683,11 @@
       "restarted": false
    }
 }
-[1562166531.375][INFO]: Cannot switch to US keyboard layout - some keys may be interpreted incorrectly
-[1562166531.375][INFO]: Launching chrome: "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-infobars --disable-notifications --disable-popup-blocking --disable-prompt-on-repost --disable-sync --disable-web-resources --enable-automation --enable-blink-features=ShadowDOMV0 --enable-logging --force-fieldtrials=SiteIsolationExtensions/Control --ignore-certificate-errors --load-extension="C:\Users\DELL\AppData\Local\Temp\scoped_dir6300_30762\internal" --log-level=0 --no-first-run --password-store=basic --remote-debugging-port=0 --start-maximized --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\DELL\AppData\Local\Google\Chrome\User Data\Profile 5"
-[1562166532.046][WARNING]: This version of ChromeDriver has not been tested with Chrome version 75.
-[1562166532.077][INFO]: resolved localhost to ["::1","127.0.0.1"]
-[1562166533.088][INFO]: [b76465d7066b9534f67ea8ff4156ab1b] RESPONSE InitSession {
+[1562253027.319][INFO]: Cannot switch to US keyboard layout - some keys may be interpreted incorrectly
+[1562253027.319][INFO]: Launching chrome: "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-infobars --disable-notifications --disable-popup-blocking --disable-prompt-on-repost --disable-sync --disable-web-resources --enable-automation --enable-blink-features=ShadowDOMV0 --enable-logging --force-fieldtrials=SiteIsolationExtensions/Control --ignore-certificate-errors --load-extension="C:\Users\DELL\AppData\Local\Temp\scoped_dir1452_8629\internal" --log-level=0 --no-first-run --password-store=basic --remote-debugging-port=0 --start-maximized --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\DELL\AppData\Local\Google\Chrome\User Data\Profile 5"
+[1562253028.103][WARNING]: This version of ChromeDriver has not been tested with Chrome version 75.
+[1562253028.130][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1562253029.147][INFO]: [80eb3dfd610cceca3c1218190d7e9015] RESPONSE InitSession {
    "acceptInsecureCerts": false,
    "acceptSslCerts": false,
    "applicationCacheEnabled": false,
@@ -675,7 +700,7 @@
    "cssSelectorsEnabled": true,
    "databaseEnabled": false,
    "goog:chromeOptions": {
-      "debuggerAddress": "localhost:56990"
+      "debuggerAddress": "localhost:59934"
    },
    "handlesAlerts": true,
    "hasTouchScreen": false,
@@ -691,70 +716,797 @@
    },
    "~~~": "..."
 }
-[1562166533.149][INFO]: [b76465d7066b9534f67ea8ff4156ab1b] COMMAND Navigate {
-   "url": "https://www.amazon.in"
+[1562253029.227][INFO]: [80eb3dfd610cceca3c1218190d7e9015] COMMAND Navigate {
+   "url": "http://newtours.demoaut.com"
 }
-[1562166533.149][INFO]: Waiting for pending navigations...
-[1562166533.166][INFO]: Done waiting for pending navigations. Status: ok
-[1562166533.574][INFO]: Waiting for pending navigations...
-[1562166536.366][INFO]: Done waiting for pending navigations. Status: ok
-[1562166536.366][INFO]: [b76465d7066b9534f67ea8ff4156ab1b] RESPONSE Navigate
-[1562166536.379][INFO]: [b76465d7066b9534f67ea8ff4156ab1b] COMMAND FindElement {
-   "using": "id",
-   "value": "searchDropdownBox"
+[1562253029.227][INFO]: Waiting for pending navigations...
+[1562253029.247][INFO]: Done waiting for pending navigations. Status: ok
+[1562253030.075][INFO]: Waiting for pending navigations...
+[1562253030.426][INFO]: Done waiting for pending navigations. Status: ok
+[1562253030.429][INFO]: [80eb3dfd610cceca3c1218190d7e9015] RESPONSE Navigate
+[1562253030.442][INFO]: [80eb3dfd610cceca3c1218190d7e9015] COMMAND FindElements {
+   "using": "tag name",
+   "value": "a"
 }
-[1562166536.379][INFO]: Waiting for pending navigations...
-[1562166536.387][INFO]: Done waiting for pending navigations. Status: ok
-[1562166536.420][INFO]: Waiting for pending navigations...
-[1562166536.424][INFO]: Done waiting for pending navigations. Status: ok
-[1562166536.425][INFO]: [b76465d7066b9534f67ea8ff4156ab1b] RESPONSE FindElement {
-   "ELEMENT": "0.3367542252377338-1"
+[1562253030.442][INFO]: Waiting for pending navigations...
+[1562253030.443][INFO]: Done waiting for pending navigations. Status: ok
+[1562253030.481][INFO]: Waiting for pending navigations...
+[1562253030.482][INFO]: Done waiting for pending navigations. Status: ok
+[1562253030.482][INFO]: [80eb3dfd610cceca3c1218190d7e9015] RESPONSE FindElements [ {
+   "ELEMENT": "0.8110221055508564-1"
+}, {
+   "ELEMENT": "0.8110221055508564-2"
+}, {
+   "ELEMENT": "0.8110221055508564-3"
+}, {
+   "ELEMENT": "0.8110221055508564-4"
+}, {
+   "ELEMENT": "0.8110221055508564-5"
+}, {
+   "ELEMENT": "0.8110221055508564-6"
+}, {
+   "ELEMENT": "0.8110221055508564-7"
+}, {
+   "ELEMENT": "0.8110221055508564-8"
+}, {
+   "ELEMENT": "0.8110221055508564-9"
+}, {
+   "ELEMENT": "0.8110221055508564-10"
+}, {
+   "ELEMENT": "0.8110221055508564-11"
+}, {
+   "ELEMENT": "0.8110221055508564-12"
+}, {
+   "ELEMENT": "0.8110221055508564-13"
+}, {
+   "ELEMENT": "0.8110221055508564-14"
+}, {
+   "ELEMENT": "0.8110221055508564-15"
+}, {
+   "ELEMENT": "0.8110221055508564-16"
+} ]
+[1562253030.507][INFO]: [80eb3dfd610cceca3c1218190d7e9015] COMMAND GetElementText {
+   "id": "0.8110221055508564-1"
 }
-[1562166536.435][INFO]: [b76465d7066b9534f67ea8ff4156ab1b] COMMAND TypeElement {
-   "id": "0.3367542252377338-1",
-   "value": [ "Books" ]
+[1562253030.507][INFO]: Waiting for pending navigations...
+[1562253030.509][INFO]: Done waiting for pending navigations. Status: ok
+[1562253030.539][INFO]: Waiting for pending navigations...
+[1562253030.540][INFO]: Done waiting for pending navigations. Status: ok
+[1562253030.540][INFO]: [80eb3dfd610cceca3c1218190d7e9015] RESPONSE GetElementText "Home"
+[1562253030.544][INFO]: [80eb3dfd610cceca3c1218190d7e9015] COMMAND GetElementText {
+   "id": "0.8110221055508564-1"
 }
-[1562166536.435][INFO]: Waiting for pending navigations...
-[1562166536.436][INFO]: Done waiting for pending navigations. Status: ok
-[1562166536.651][INFO]: Waiting for pending navigations...
-[1562166536.870][INFO]: Done waiting for pending navigations. Status: ok
-[1562166536.871][INFO]: [b76465d7066b9534f67ea8ff4156ab1b] RESPONSE TypeElement
-[1562166536.878][INFO]: [b76465d7066b9534f67ea8ff4156ab1b] COMMAND FindElement {
-   "using": "name",
-   "value": "field-keywords"
+[1562253030.544][INFO]: Waiting for pending navigations...
+[1562253030.545][INFO]: Done waiting for pending navigations. Status: ok
+[1562253030.573][INFO]: Waiting for pending navigations...
+[1562253030.574][INFO]: Done waiting for pending navigations. Status: ok
+[1562253030.574][INFO]: [80eb3dfd610cceca3c1218190d7e9015] RESPONSE GetElementText "Home"
+[1562253030.582][INFO]: [80eb3dfd610cceca3c1218190d7e9015] COMMAND ClickElement {
+   "id": "0.8110221055508564-1"
 }
-[1562166536.878][INFO]: Waiting for pending navigations...
-[1562166536.884][INFO]: Done waiting for pending navigations. Status: ok
-[1562166536.904][INFO]: Waiting for pending navigations...
-[1562166536.906][INFO]: Done waiting for pending navigations. Status: ok
-[1562166536.906][INFO]: [b76465d7066b9534f67ea8ff4156ab1b] RESPONSE FindElement {
-   "ELEMENT": "0.3367542252377338-2"
+[1562253030.582][INFO]: Waiting for pending navigations...
+[1562253030.583][INFO]: Done waiting for pending navigations. Status: ok
+[1562253030.657][INFO]: Waiting for pending navigations...
+[1562253031.296][INFO]: Done waiting for pending navigations. Status: ok
+[1562253031.296][INFO]: [80eb3dfd610cceca3c1218190d7e9015] RESPONSE ClickElement
+[1562253031.300][INFO]: [80eb3dfd610cceca3c1218190d7e9015] COMMAND GetTitle {
+
 }
-[1562166536.912][INFO]: [b76465d7066b9534f67ea8ff4156ab1b] COMMAND TypeElement {
-   "id": "0.3367542252377338-2",
-   "value": [ "Harry Potter" ]
+[1562253031.300][INFO]: Waiting for pending navigations...
+[1562253031.301][INFO]: Done waiting for pending navigations. Status: ok
+[1562253031.304][INFO]: Waiting for pending navigations...
+[1562253031.312][INFO]: Done waiting for pending navigations. Status: ok
+[1562253031.312][INFO]: [80eb3dfd610cceca3c1218190d7e9015] RESPONSE GetTitle "Welcome: Mercury Tours"
+[1562253031.318][INFO]: [80eb3dfd610cceca3c1218190d7e9015] COMMAND FindElements {
+   "using": "tag name",
+   "value": "a"
 }
-[1562166536.912][INFO]: Waiting for pending navigations...
-[1562166536.916][INFO]: Done waiting for pending navigations. Status: ok
-[1562166537.126][INFO]: Waiting for pending navigations...
-[1562166537.128][INFO]: Done waiting for pending navigations. Status: ok
-[1562166537.128][INFO]: [b76465d7066b9534f67ea8ff4156ab1b] RESPONSE TypeElement
-[1562166537.134][INFO]: [b76465d7066b9534f67ea8ff4156ab1b] COMMAND FindElement {
-   "using": "xpath",
-   "value": "//div[@class='nav-search-submit nav-sprite']//input[@class='nav-input']"
+[1562253031.319][INFO]: Waiting for pending navigations...
+[1562253031.319][INFO]: Done waiting for pending navigations. Status: ok
+[1562253031.330][INFO]: Waiting for pending navigations...
+[1562253031.330][INFO]: Done waiting for pending navigations. Status: ok
+[1562253031.331][INFO]: [80eb3dfd610cceca3c1218190d7e9015] RESPONSE FindElements [ {
+   "ELEMENT": "0.17497883194884123-1"
+}, {
+   "ELEMENT": "0.17497883194884123-2"
+}, {
+   "ELEMENT": "0.17497883194884123-3"
+}, {
+   "ELEMENT": "0.17497883194884123-4"
+}, {
+   "ELEMENT": "0.17497883194884123-5"
+}, {
+   "ELEMENT": "0.17497883194884123-6"
+}, {
+   "ELEMENT": "0.17497883194884123-7"
+}, {
+   "ELEMENT": "0.17497883194884123-8"
+}, {
+   "ELEMENT": "0.17497883194884123-9"
+}, {
+   "ELEMENT": "0.17497883194884123-10"
+}, {
+   "ELEMENT": "0.17497883194884123-11"
+}, {
+   "ELEMENT": "0.17497883194884123-12"
+}, {
+   "ELEMENT": "0.17497883194884123-13"
+}, {
+   "ELEMENT": "0.17497883194884123-14"
+}, {
+   "ELEMENT": "0.17497883194884123-15"
+}, {
+   "ELEMENT": "0.17497883194884123-16"
+} ]
+[1562253031.341][INFO]: [80eb3dfd610cceca3c1218190d7e9015] COMMAND GetElementText {
+   "id": "0.17497883194884123-2"
 }
-[1562166537.134][INFO]: Waiting for pending navigations...
-[1562166537.134][INFO]: Done waiting for pending navigations. Status: ok
-[1562166537.172][INFO]: Waiting for pending navigations...
-[1562166537.174][INFO]: Done waiting for pending navigations. Status: ok
-[1562166537.174][INFO]: [b76465d7066b9534f67ea8ff4156ab1b] RESPONSE FindElement {
-   "ELEMENT": "0.3367542252377338-3"
+[1562253031.341][INFO]: Waiting for pending navigations...
+[1562253031.342][INFO]: Done waiting for pending navigations. Status: ok
+[1562253031.364][INFO]: Waiting for pending navigations...
+[1562253031.365][INFO]: Done waiting for pending navigations. Status: ok
+[1562253031.365][INFO]: [80eb3dfd610cceca3c1218190d7e9015] RESPONSE GetElementText "Flights"
+[1562253031.368][INFO]: [80eb3dfd610cceca3c1218190d7e9015] COMMAND GetElementText {
+   "id": "0.17497883194884123-2"
 }
-[1562166537.179][INFO]: [b76465d7066b9534f67ea8ff4156ab1b] COMMAND ClickElement {
-   "id": "0.3367542252377338-3"
+[1562253031.368][INFO]: Waiting for pending navigations...
+[1562253031.369][INFO]: Done waiting for pending navigations. Status: ok
+[1562253031.382][INFO]: Waiting for pending navigations...
+[1562253031.382][INFO]: Done waiting for pending navigations. Status: ok
+[1562253031.382][INFO]: [80eb3dfd610cceca3c1218190d7e9015] RESPONSE GetElementText "Flights"
+[1562253031.386][INFO]: [80eb3dfd610cceca3c1218190d7e9015] COMMAND ClickElement {
+   "id": "0.17497883194884123-2"
 }
-[1562166537.179][INFO]: Waiting for pending navigations...
-[1562166537.180][INFO]: Done waiting for pending navigations. Status: ok
-[1562166537.395][INFO]: Waiting for pending navigations...
-[1562166540.000][INFO]: Done waiting for pending navigations. Status: ok
-[1562166540.001][INFO]: [b76465d7066b9534f67ea8ff4156ab1b] RESPONSE ClickElement
+[1562253031.386][INFO]: Waiting for pending navigations...
+[1562253031.387][INFO]: Done waiting for pending navigations. Status: ok
+[1562253031.449][INFO]: Waiting for pending navigations...
+[1562253032.377][INFO]: Done waiting for pending navigations. Status: ok
+[1562253032.377][INFO]: [80eb3dfd610cceca3c1218190d7e9015] RESPONSE ClickElement
+[1562253032.381][INFO]: [80eb3dfd610cceca3c1218190d7e9015] COMMAND GetTitle {
+
+}
+[1562253032.381][INFO]: Waiting for pending navigations...
+[1562253032.383][INFO]: Done waiting for pending navigations. Status: ok
+[1562253032.385][INFO]: Waiting for pending navigations...
+[1562253032.386][INFO]: Done waiting for pending navigations. Status: ok
+[1562253032.386][INFO]: [80eb3dfd610cceca3c1218190d7e9015] RESPONSE GetTitle "Welcome: Mercury Tours"
+[1562253032.394][INFO]: [80eb3dfd610cceca3c1218190d7e9015] COMMAND FindElements {
+   "using": "tag name",
+   "value": "a"
+}
+[1562253032.394][INFO]: Waiting for pending navigations...
+[1562253032.397][INFO]: Done waiting for pending navigations. Status: ok
+[1562253032.409][INFO]: Waiting for pending navigations...
+[1562253032.410][INFO]: Done waiting for pending navigations. Status: ok
+[1562253032.410][INFO]: [80eb3dfd610cceca3c1218190d7e9015] RESPONSE FindElements [ {
+   "ELEMENT": "0.6582231271404004-1"
+}, {
+   "ELEMENT": "0.6582231271404004-2"
+}, {
+   "ELEMENT": "0.6582231271404004-3"
+}, {
+   "ELEMENT": "0.6582231271404004-4"
+}, {
+   "ELEMENT": "0.6582231271404004-5"
+}, {
+   "ELEMENT": "0.6582231271404004-6"
+}, {
+   "ELEMENT": "0.6582231271404004-7"
+}, {
+   "ELEMENT": "0.6582231271404004-8"
+}, {
+   "ELEMENT": "0.6582231271404004-9"
+}, {
+   "ELEMENT": "0.6582231271404004-10"
+}, {
+   "ELEMENT": "0.6582231271404004-11"
+}, {
+   "ELEMENT": "0.6582231271404004-12"
+}, {
+   "ELEMENT": "0.6582231271404004-13"
+}, {
+   "ELEMENT": "0.6582231271404004-14"
+}, {
+   "ELEMENT": "0.6582231271404004-15"
+}, {
+   "ELEMENT": "0.6582231271404004-16"
+} ]
+[1562253032.420][INFO]: [80eb3dfd610cceca3c1218190d7e9015] COMMAND GetElementText {
+   "id": "0.6582231271404004-3"
+}
+[1562253032.420][INFO]: Waiting for pending navigations...
+[1562253032.421][INFO]: Done waiting for pending navigations. Status: ok
+[1562253032.446][INFO]: Waiting for pending navigations...
+[1562253032.447][INFO]: Done waiting for pending navigations. Status: ok
+[1562253032.447][INFO]: [80eb3dfd610cceca3c1218190d7e9015] RESPONSE GetElementText "Hotels"
+[1562253032.454][INFO]: [80eb3dfd610cceca3c1218190d7e9015] COMMAND GetElementText {
+   "id": "0.6582231271404004-3"
+}
+[1562253032.454][INFO]: Waiting for pending navigations...
+[1562253032.455][INFO]: Done waiting for pending navigations. Status: ok
+[1562253032.465][INFO]: Waiting for pending navigations...
+[1562253032.467][INFO]: Done waiting for pending navigations. Status: ok
+[1562253032.467][INFO]: [80eb3dfd610cceca3c1218190d7e9015] RESPONSE GetElementText "Hotels"
+[1562253032.470][INFO]: [80eb3dfd610cceca3c1218190d7e9015] COMMAND ClickElement {
+   "id": "0.6582231271404004-3"
+}
+[1562253032.470][INFO]: Waiting for pending navigations...
+[1562253032.471][INFO]: Done waiting for pending navigations. Status: ok
+[1562253032.533][INFO]: Waiting for pending navigations...
+[1562253033.132][INFO]: Done waiting for pending navigations. Status: ok
+[1562253033.132][INFO]: [80eb3dfd610cceca3c1218190d7e9015] RESPONSE ClickElement
+[1562253033.136][INFO]: [80eb3dfd610cceca3c1218190d7e9015] COMMAND GetTitle {
+
+}
+[1562253033.136][INFO]: Waiting for pending navigations...
+[1562253033.137][INFO]: Done waiting for pending navigations. Status: ok
+[1562253033.141][INFO]: Waiting for pending navigations...
+[1562253033.143][INFO]: Done waiting for pending navigations. Status: ok
+[1562253033.144][INFO]: [80eb3dfd610cceca3c1218190d7e9015] RESPONSE GetTitle "Under Construction: Mercury Tours"
+[1562253033.150][INFO]: [80eb3dfd610cceca3c1218190d7e9015] COMMAND FindElements {
+   "using": "tag name",
+   "value": "a"
+}
+[1562253033.150][INFO]: Waiting for pending navigations...
+[1562253033.152][INFO]: Done waiting for pending navigations. Status: ok
+[1562253033.163][INFO]: Waiting for pending navigations...
+[1562253033.163][INFO]: Done waiting for pending navigations. Status: ok
+[1562253033.164][INFO]: [80eb3dfd610cceca3c1218190d7e9015] RESPONSE FindElements [ {
+   "ELEMENT": "0.1198007171994453-1"
+}, {
+   "ELEMENT": "0.1198007171994453-2"
+}, {
+   "ELEMENT": "0.1198007171994453-3"
+}, {
+   "ELEMENT": "0.1198007171994453-4"
+}, {
+   "ELEMENT": "0.1198007171994453-5"
+}, {
+   "ELEMENT": "0.1198007171994453-6"
+}, {
+   "ELEMENT": "0.1198007171994453-7"
+}, {
+   "ELEMENT": "0.1198007171994453-8"
+}, {
+   "ELEMENT": "0.1198007171994453-9"
+}, {
+   "ELEMENT": "0.1198007171994453-10"
+}, {
+   "ELEMENT": "0.1198007171994453-11"
+}, {
+   "ELEMENT": "0.1198007171994453-12"
+} ]
+[1562253033.170][INFO]: [80eb3dfd610cceca3c1218190d7e9015] COMMAND GetElementText {
+   "id": "0.1198007171994453-4"
+}
+[1562253033.170][INFO]: Waiting for pending navigations...
+[1562253033.173][INFO]: Done waiting for pending navigations. Status: ok
+[1562253033.200][INFO]: Waiting for pending navigations...
+[1562253033.202][INFO]: Done waiting for pending navigations. Status: ok
+[1562253033.202][INFO]: [80eb3dfd610cceca3c1218190d7e9015] RESPONSE GetElementText "Car Rentals"
+[1562253033.206][INFO]: [80eb3dfd610cceca3c1218190d7e9015] COMMAND GetElementText {
+   "id": "0.1198007171994453-4"
+}
+[1562253033.206][INFO]: Waiting for pending navigations...
+[1562253033.207][INFO]: Done waiting for pending navigations. Status: ok
+[1562253033.217][INFO]: Waiting for pending navigations...
+[1562253033.219][INFO]: Done waiting for pending navigations. Status: ok
+[1562253033.219][INFO]: [80eb3dfd610cceca3c1218190d7e9015] RESPONSE GetElementText "Car Rentals"
+[1562253033.223][INFO]: [80eb3dfd610cceca3c1218190d7e9015] COMMAND ClickElement {
+   "id": "0.1198007171994453-4"
+}
+[1562253033.223][INFO]: Waiting for pending navigations...
+[1562253033.224][INFO]: Done waiting for pending navigations. Status: ok
+[1562253033.282][INFO]: Waiting for pending navigations...
+[1562253033.879][INFO]: Done waiting for pending navigations. Status: ok
+[1562253033.879][INFO]: [80eb3dfd610cceca3c1218190d7e9015] RESPONSE ClickElement
+[1562253033.881][INFO]: [80eb3dfd610cceca3c1218190d7e9015] COMMAND GetTitle {
+
+}
+[1562253033.881][INFO]: Waiting for pending navigations...
+[1562253033.882][INFO]: Done waiting for pending navigations. Status: ok
+[1562253033.885][INFO]: Waiting for pending navigations...
+[1562253033.886][INFO]: Done waiting for pending navigations. Status: ok
+[1562253033.886][INFO]: [80eb3dfd610cceca3c1218190d7e9015] RESPONSE GetTitle "Under Construction: Mercury Tours"
+[1562253033.894][INFO]: [80eb3dfd610cceca3c1218190d7e9015] COMMAND FindElements {
+   "using": "tag name",
+   "value": "a"
+}
+[1562253033.894][INFO]: Waiting for pending navigations...
+[1562253033.895][INFO]: Done waiting for pending navigations. Status: ok
+[1562253033.907][INFO]: Waiting for pending navigations...
+[1562253033.909][INFO]: Done waiting for pending navigations. Status: ok
+[1562253033.909][INFO]: [80eb3dfd610cceca3c1218190d7e9015] RESPONSE FindElements [ {
+   "ELEMENT": "0.08842921504701073-1"
+}, {
+   "ELEMENT": "0.08842921504701073-2"
+}, {
+   "ELEMENT": "0.08842921504701073-3"
+}, {
+   "ELEMENT": "0.08842921504701073-4"
+}, {
+   "ELEMENT": "0.08842921504701073-5"
+}, {
+   "ELEMENT": "0.08842921504701073-6"
+}, {
+   "ELEMENT": "0.08842921504701073-7"
+}, {
+   "ELEMENT": "0.08842921504701073-8"
+}, {
+   "ELEMENT": "0.08842921504701073-9"
+}, {
+   "ELEMENT": "0.08842921504701073-10"
+}, {
+   "ELEMENT": "0.08842921504701073-11"
+}, {
+   "ELEMENT": "0.08842921504701073-12"
+} ]
+[1562253033.914][INFO]: [80eb3dfd610cceca3c1218190d7e9015] COMMAND GetElementText {
+   "id": "0.08842921504701073-5"
+}
+[1562253033.914][INFO]: Waiting for pending navigations...
+[1562253033.914][INFO]: Done waiting for pending navigations. Status: ok
+[1562253033.932][INFO]: Waiting for pending navigations...
+[1562253033.934][INFO]: Done waiting for pending navigations. Status: ok
+[1562253033.934][INFO]: [80eb3dfd610cceca3c1218190d7e9015] RESPONSE GetElementText "Cruises"
+[1562253033.940][INFO]: [80eb3dfd610cceca3c1218190d7e9015] COMMAND GetElementText {
+   "id": "0.08842921504701073-5"
+}
+[1562253033.940][INFO]: Waiting for pending navigations...
+[1562253033.941][INFO]: Done waiting for pending navigations. Status: ok
+[1562253033.951][INFO]: Waiting for pending navigations...
+[1562253033.952][INFO]: Done waiting for pending navigations. Status: ok
+[1562253033.952][INFO]: [80eb3dfd610cceca3c1218190d7e9015] RESPONSE GetElementText "Cruises"
+[1562253033.958][INFO]: [80eb3dfd610cceca3c1218190d7e9015] COMMAND ClickElement {
+   "id": "0.08842921504701073-5"
+}
+[1562253033.958][INFO]: Waiting for pending navigations...
+[1562253033.959][INFO]: Done waiting for pending navigations. Status: ok
+[1562253034.019][INFO]: Waiting for pending navigations...
+[1562253034.627][INFO]: Done waiting for pending navigations. Status: ok
+[1562253034.627][INFO]: [80eb3dfd610cceca3c1218190d7e9015] RESPONSE ClickElement
+[1562253034.632][INFO]: [80eb3dfd610cceca3c1218190d7e9015] COMMAND GetTitle {
+
+}
+[1562253034.632][INFO]: Waiting for pending navigations...
+[1562253034.633][INFO]: Done waiting for pending navigations. Status: ok
+[1562253034.635][INFO]: Waiting for pending navigations...
+[1562253034.636][INFO]: Done waiting for pending navigations. Status: ok
+[1562253034.636][INFO]: [80eb3dfd610cceca3c1218190d7e9015] RESPONSE GetTitle "Cruises: Mercury Tours"
+[1562253034.641][INFO]: [80eb3dfd610cceca3c1218190d7e9015] COMMAND FindElements {
+   "using": "tag name",
+   "value": "a"
+}
+[1562253034.641][INFO]: Waiting for pending navigations...
+[1562253034.642][INFO]: Done waiting for pending navigations. Status: ok
+[1562253034.659][INFO]: Waiting for pending navigations...
+[1562253034.660][INFO]: Done waiting for pending navigations. Status: ok
+[1562253034.660][INFO]: [80eb3dfd610cceca3c1218190d7e9015] RESPONSE FindElements [ {
+   "ELEMENT": "0.07953766792412176-1"
+}, {
+   "ELEMENT": "0.07953766792412176-2"
+}, {
+   "ELEMENT": "0.07953766792412176-3"
+}, {
+   "ELEMENT": "0.07953766792412176-4"
+}, {
+   "ELEMENT": "0.07953766792412176-5"
+}, {
+   "ELEMENT": "0.07953766792412176-6"
+}, {
+   "ELEMENT": "0.07953766792412176-7"
+}, {
+   "ELEMENT": "0.07953766792412176-8"
+}, {
+   "ELEMENT": "0.07953766792412176-9"
+}, {
+   "ELEMENT": "0.07953766792412176-10"
+}, {
+   "ELEMENT": "0.07953766792412176-11"
+}, {
+   "ELEMENT": "0.07953766792412176-12"
+} ]
+[1562253034.665][INFO]: [80eb3dfd610cceca3c1218190d7e9015] COMMAND GetElementText {
+   "id": "0.07953766792412176-6"
+}
+[1562253034.665][INFO]: Waiting for pending navigations...
+[1562253034.667][INFO]: Done waiting for pending navigations. Status: ok
+[1562253034.687][INFO]: Waiting for pending navigations...
+[1562253034.689][INFO]: Done waiting for pending navigations. Status: ok
+[1562253034.689][INFO]: [80eb3dfd610cceca3c1218190d7e9015] RESPONSE GetElementText "Destinations"
+[1562253034.693][INFO]: [80eb3dfd610cceca3c1218190d7e9015] COMMAND GetElementText {
+   "id": "0.07953766792412176-6"
+}
+[1562253034.693][INFO]: Waiting for pending navigations...
+[1562253034.694][INFO]: Done waiting for pending navigations. Status: ok
+[1562253034.710][INFO]: Waiting for pending navigations...
+[1562253034.711][INFO]: Done waiting for pending navigations. Status: ok
+[1562253034.711][INFO]: [80eb3dfd610cceca3c1218190d7e9015] RESPONSE GetElementText "Destinations"
+[1562253034.716][INFO]: [80eb3dfd610cceca3c1218190d7e9015] COMMAND ClickElement {
+   "id": "0.07953766792412176-6"
+}
+[1562253034.716][INFO]: Waiting for pending navigations...
+[1562253034.717][INFO]: Done waiting for pending navigations. Status: ok
+[1562253034.780][INFO]: Waiting for pending navigations...
+[1562253035.395][INFO]: Done waiting for pending navigations. Status: ok
+[1562253035.395][INFO]: [80eb3dfd610cceca3c1218190d7e9015] RESPONSE ClickElement
+[1562253035.399][INFO]: [80eb3dfd610cceca3c1218190d7e9015] COMMAND GetTitle {
+
+}
+[1562253035.399][INFO]: Waiting for pending navigations...
+[1562253035.400][INFO]: Done waiting for pending navigations. Status: ok
+[1562253035.402][INFO]: Waiting for pending navigations...
+[1562253035.403][INFO]: Done waiting for pending navigations. Status: ok
+[1562253035.403][INFO]: [80eb3dfd610cceca3c1218190d7e9015] RESPONSE GetTitle "Under Construction: Mercury Tours"
+[1562253035.408][INFO]: [80eb3dfd610cceca3c1218190d7e9015] COMMAND FindElements {
+   "using": "tag name",
+   "value": "a"
+}
+[1562253035.408][INFO]: Waiting for pending navigations...
+[1562253035.410][INFO]: Done waiting for pending navigations. Status: ok
+[1562253035.420][INFO]: Waiting for pending navigations...
+[1562253035.421][INFO]: Done waiting for pending navigations. Status: ok
+[1562253035.421][INFO]: [80eb3dfd610cceca3c1218190d7e9015] RESPONSE FindElements [ {
+   "ELEMENT": "0.1885023609360441-1"
+}, {
+   "ELEMENT": "0.1885023609360441-2"
+}, {
+   "ELEMENT": "0.1885023609360441-3"
+}, {
+   "ELEMENT": "0.1885023609360441-4"
+}, {
+   "ELEMENT": "0.1885023609360441-5"
+}, {
+   "ELEMENT": "0.1885023609360441-6"
+}, {
+   "ELEMENT": "0.1885023609360441-7"
+}, {
+   "ELEMENT": "0.1885023609360441-8"
+}, {
+   "ELEMENT": "0.1885023609360441-9"
+}, {
+   "ELEMENT": "0.1885023609360441-10"
+}, {
+   "ELEMENT": "0.1885023609360441-11"
+}, {
+   "ELEMENT": "0.1885023609360441-12"
+} ]
+[1562253035.433][INFO]: [80eb3dfd610cceca3c1218190d7e9015] COMMAND GetElementText {
+   "id": "0.1885023609360441-7"
+}
+[1562253035.433][INFO]: Waiting for pending navigations...
+[1562253035.434][INFO]: Done waiting for pending navigations. Status: ok
+[1562253035.456][INFO]: Waiting for pending navigations...
+[1562253035.457][INFO]: Done waiting for pending navigations. Status: ok
+[1562253035.457][INFO]: [80eb3dfd610cceca3c1218190d7e9015] RESPONSE GetElementText "Vacations"
+[1562253035.460][INFO]: [80eb3dfd610cceca3c1218190d7e9015] COMMAND GetElementText {
+   "id": "0.1885023609360441-7"
+}
+[1562253035.460][INFO]: Waiting for pending navigations...
+[1562253035.461][INFO]: Done waiting for pending navigations. Status: ok
+[1562253035.471][INFO]: Waiting for pending navigations...
+[1562253035.472][INFO]: Done waiting for pending navigations. Status: ok
+[1562253035.472][INFO]: [80eb3dfd610cceca3c1218190d7e9015] RESPONSE GetElementText "Vacations"
+[1562253035.476][INFO]: [80eb3dfd610cceca3c1218190d7e9015] COMMAND ClickElement {
+   "id": "0.1885023609360441-7"
+}
+[1562253035.476][INFO]: Waiting for pending navigations...
+[1562253035.477][INFO]: Done waiting for pending navigations. Status: ok
+[1562253035.533][INFO]: Waiting for pending navigations...
+[1562253036.130][INFO]: Done waiting for pending navigations. Status: ok
+[1562253036.130][INFO]: [80eb3dfd610cceca3c1218190d7e9015] RESPONSE ClickElement
+[1562253036.135][INFO]: [80eb3dfd610cceca3c1218190d7e9015] COMMAND GetTitle {
+
+}
+[1562253036.135][INFO]: Waiting for pending navigations...
+[1562253036.136][INFO]: Done waiting for pending navigations. Status: ok
+[1562253036.139][INFO]: Waiting for pending navigations...
+[1562253036.143][INFO]: Done waiting for pending navigations. Status: ok
+[1562253036.143][INFO]: [80eb3dfd610cceca3c1218190d7e9015] RESPONSE GetTitle "Under Construction: Mercury Tours"
+[1562253036.149][INFO]: [80eb3dfd610cceca3c1218190d7e9015] COMMAND FindElements {
+   "using": "tag name",
+   "value": "a"
+}
+[1562253036.149][INFO]: Waiting for pending navigations...
+[1562253036.150][INFO]: Done waiting for pending navigations. Status: ok
+[1562253036.161][INFO]: Waiting for pending navigations...
+[1562253036.163][INFO]: Done waiting for pending navigations. Status: ok
+[1562253036.163][INFO]: [80eb3dfd610cceca3c1218190d7e9015] RESPONSE FindElements [ {
+   "ELEMENT": "0.9997796889787027-1"
+}, {
+   "ELEMENT": "0.9997796889787027-2"
+}, {
+   "ELEMENT": "0.9997796889787027-3"
+}, {
+   "ELEMENT": "0.9997796889787027-4"
+}, {
+   "ELEMENT": "0.9997796889787027-5"
+}, {
+   "ELEMENT": "0.9997796889787027-6"
+}, {
+   "ELEMENT": "0.9997796889787027-7"
+}, {
+   "ELEMENT": "0.9997796889787027-8"
+}, {
+   "ELEMENT": "0.9997796889787027-9"
+}, {
+   "ELEMENT": "0.9997796889787027-10"
+}, {
+   "ELEMENT": "0.9997796889787027-11"
+}, {
+   "ELEMENT": "0.9997796889787027-12"
+} ]
+[1562253036.169][INFO]: [80eb3dfd610cceca3c1218190d7e9015] COMMAND GetElementText {
+   "id": "0.9997796889787027-8"
+}
+[1562253036.169][INFO]: Waiting for pending navigations...
+[1562253036.171][INFO]: Done waiting for pending navigations. Status: ok
+[1562253036.195][INFO]: Waiting for pending navigations...
+[1562253036.196][INFO]: Done waiting for pending navigations. Status: ok
+[1562253036.196][INFO]: [80eb3dfd610cceca3c1218190d7e9015] RESPONSE GetElementText "SIGN-ON"
+[1562253036.199][INFO]: [80eb3dfd610cceca3c1218190d7e9015] COMMAND GetElementText {
+   "id": "0.9997796889787027-8"
+}
+[1562253036.199][INFO]: Waiting for pending navigations...
+[1562253036.200][INFO]: Done waiting for pending navigations. Status: ok
+[1562253036.211][INFO]: Waiting for pending navigations...
+[1562253036.212][INFO]: Done waiting for pending navigations. Status: ok
+[1562253036.212][INFO]: [80eb3dfd610cceca3c1218190d7e9015] RESPONSE GetElementText "SIGN-ON"
+[1562253036.217][INFO]: [80eb3dfd610cceca3c1218190d7e9015] COMMAND ClickElement {
+   "id": "0.9997796889787027-8"
+}
+[1562253036.217][INFO]: Waiting for pending navigations...
+[1562253036.218][INFO]: Done waiting for pending navigations. Status: ok
+[1562253036.282][INFO]: Waiting for pending navigations...
+[1562253036.885][INFO]: Done waiting for pending navigations. Status: ok
+[1562253036.885][INFO]: [80eb3dfd610cceca3c1218190d7e9015] RESPONSE ClickElement
+[1562253036.890][INFO]: [80eb3dfd610cceca3c1218190d7e9015] COMMAND GetTitle {
+
+}
+[1562253036.890][INFO]: Waiting for pending navigations...
+[1562253036.891][INFO]: Done waiting for pending navigations. Status: ok
+[1562253036.895][INFO]: Waiting for pending navigations...
+[1562253036.896][INFO]: Done waiting for pending navigations. Status: ok
+[1562253036.896][INFO]: [80eb3dfd610cceca3c1218190d7e9015] RESPONSE GetTitle "Sign-on: Mercury Tours"
+[1562253036.901][INFO]: [80eb3dfd610cceca3c1218190d7e9015] COMMAND FindElements {
+   "using": "tag name",
+   "value": "a"
+}
+[1562253036.901][INFO]: Waiting for pending navigations...
+[1562253036.902][INFO]: Done waiting for pending navigations. Status: ok
+[1562253036.917][INFO]: Waiting for pending navigations...
+[1562253036.918][INFO]: Done waiting for pending navigations. Status: ok
+[1562253036.918][INFO]: [80eb3dfd610cceca3c1218190d7e9015] RESPONSE FindElements [ {
+   "ELEMENT": "0.6342882683765096-1"
+}, {
+   "ELEMENT": "0.6342882683765096-2"
+}, {
+   "ELEMENT": "0.6342882683765096-3"
+}, {
+   "ELEMENT": "0.6342882683765096-4"
+}, {
+   "ELEMENT": "0.6342882683765096-5"
+}, {
+   "ELEMENT": "0.6342882683765096-6"
+}, {
+   "ELEMENT": "0.6342882683765096-7"
+}, {
+   "ELEMENT": "0.6342882683765096-8"
+}, {
+   "ELEMENT": "0.6342882683765096-9"
+}, {
+   "ELEMENT": "0.6342882683765096-10"
+}, {
+   "ELEMENT": "0.6342882683765096-11"
+}, {
+   "ELEMENT": "0.6342882683765096-12"
+} ]
+[1562253036.923][INFO]: [80eb3dfd610cceca3c1218190d7e9015] COMMAND GetElementText {
+   "id": "0.6342882683765096-9"
+}
+[1562253036.923][INFO]: Waiting for pending navigations...
+[1562253036.924][INFO]: Done waiting for pending navigations. Status: ok
+[1562253036.943][INFO]: Waiting for pending navigations...
+[1562253036.944][INFO]: Done waiting for pending navigations. Status: ok
+[1562253036.944][INFO]: [80eb3dfd610cceca3c1218190d7e9015] RESPONSE GetElementText "REGISTER"
+[1562253036.947][INFO]: [80eb3dfd610cceca3c1218190d7e9015] COMMAND GetElementText {
+   "id": "0.6342882683765096-9"
+}
+[1562253036.947][INFO]: Waiting for pending navigations...
+[1562253036.947][INFO]: Done waiting for pending navigations. Status: ok
+[1562253036.959][INFO]: Waiting for pending navigations...
+[1562253036.960][INFO]: Done waiting for pending navigations. Status: ok
+[1562253036.960][INFO]: [80eb3dfd610cceca3c1218190d7e9015] RESPONSE GetElementText "REGISTER"
+[1562253036.964][INFO]: [80eb3dfd610cceca3c1218190d7e9015] COMMAND ClickElement {
+   "id": "0.6342882683765096-9"
+}
+[1562253036.964][INFO]: Waiting for pending navigations...
+[1562253036.965][INFO]: Done waiting for pending navigations. Status: ok
+[1562253037.025][INFO]: Waiting for pending navigations...
+[1562253038.184][INFO]: Done waiting for pending navigations. Status: ok
+[1562253038.184][INFO]: [80eb3dfd610cceca3c1218190d7e9015] RESPONSE ClickElement
+[1562253038.188][INFO]: [80eb3dfd610cceca3c1218190d7e9015] COMMAND GetTitle {
+
+}
+[1562253038.188][INFO]: Waiting for pending navigations...
+[1562253038.191][INFO]: Done waiting for pending navigations. Status: ok
+[1562253038.194][INFO]: Waiting for pending navigations...
+[1562253038.195][INFO]: Done waiting for pending navigations. Status: ok
+[1562253038.195][INFO]: [80eb3dfd610cceca3c1218190d7e9015] RESPONSE GetTitle "Register: Mercury Tours"
+[1562253038.200][INFO]: [80eb3dfd610cceca3c1218190d7e9015] COMMAND Screenshot {
+
+}
+[1562253038.200][INFO]: Waiting for pending navigations...
+[1562253038.200][INFO]: Done waiting for pending navigations. Status: ok
+[1562253038.555][INFO]: Waiting for pending navigations...
+[1562253038.557][INFO]: Done waiting for pending navigations. Status: ok
+[1562253038.558][INFO]: [80eb3dfd610cceca3c1218190d7e9015] RESPONSE Screenshot "iVBORw0KGgoAAAANSUhEUgAABVYAAAKRCAYAAAC/c/KQAAAAAXNSR0IArs4c6QAAIABJREFUeJzsvXt8Vdd9p/2ciwTINshGIYBtkG8Y38VZcnoxk+Bp7UzTiYG+n2lrdyaxS9iavLlB+qadvp9+BtO+bSdJEzv1dBptx4H0ErfptDZJZ5o4mTFtcdOMtYR8gWB8A..."
+[1562253038.610][INFO]: [80eb3dfd610cceca3c1218190d7e9015] COMMAND FindElements {
+   "using": "tag name",
+   "value": "a"
+}
+[1562253038.610][INFO]: Waiting for pending navigations...
+[1562253038.611][INFO]: Done waiting for pending navigations. Status: ok
+[1562253038.621][INFO]: Waiting for pending navigations...
+[1562253038.622][INFO]: Done waiting for pending navigations. Status: ok
+[1562253038.622][INFO]: [80eb3dfd610cceca3c1218190d7e9015] RESPONSE FindElements [ {
+   "ELEMENT": "0.24744609511225257-1"
+}, {
+   "ELEMENT": "0.24744609511225257-2"
+}, {
+   "ELEMENT": "0.24744609511225257-3"
+}, {
+   "ELEMENT": "0.24744609511225257-4"
+}, {
+   "ELEMENT": "0.24744609511225257-5"
+}, {
+   "ELEMENT": "0.24744609511225257-6"
+}, {
+   "ELEMENT": "0.24744609511225257-7"
+}, {
+   "ELEMENT": "0.24744609511225257-8"
+}, {
+   "ELEMENT": "0.24744609511225257-9"
+}, {
+   "ELEMENT": "0.24744609511225257-10"
+}, {
+   "ELEMENT": "0.24744609511225257-11"
+} ]
+[1562253038.630][INFO]: [80eb3dfd610cceca3c1218190d7e9015] COMMAND GetElementText {
+   "id": "0.24744609511225257-10"
+}
+[1562253038.630][INFO]: Waiting for pending navigations...
+[1562253038.631][INFO]: Done waiting for pending navigations. Status: ok
+[1562253038.661][INFO]: Waiting for pending navigations...
+[1562253038.661][INFO]: Done waiting for pending navigations. Status: ok
+[1562253038.661][INFO]: [80eb3dfd610cceca3c1218190d7e9015] RESPONSE GetElementText "SUPPORT"
+[1562253038.664][INFO]: [80eb3dfd610cceca3c1218190d7e9015] COMMAND GetElementText {
+   "id": "0.24744609511225257-10"
+}
+[1562253038.664][INFO]: Waiting for pending navigations...
+[1562253038.664][INFO]: Done waiting for pending navigations. Status: ok
+[1562253038.676][INFO]: Waiting for pending navigations...
+[1562253038.680][INFO]: Done waiting for pending navigations. Status: ok
+[1562253038.680][INFO]: [80eb3dfd610cceca3c1218190d7e9015] RESPONSE GetElementText "SUPPORT"
+[1562253038.684][INFO]: [80eb3dfd610cceca3c1218190d7e9015] COMMAND ClickElement {
+   "id": "0.24744609511225257-10"
+}
+[1562253038.684][INFO]: Waiting for pending navigations...
+[1562253038.686][INFO]: Done waiting for pending navigations. Status: ok
+[1562253038.760][INFO]: Waiting for pending navigations...
+[1562253039.360][INFO]: Done waiting for pending navigations. Status: ok
+[1562253039.360][INFO]: [80eb3dfd610cceca3c1218190d7e9015] RESPONSE ClickElement
+[1562253039.366][INFO]: [80eb3dfd610cceca3c1218190d7e9015] COMMAND GetTitle {
+
+}
+[1562253039.366][INFO]: Waiting for pending navigations...
+[1562253039.369][INFO]: Done waiting for pending navigations. Status: ok
+[1562253039.372][INFO]: Waiting for pending navigations...
+[1562253039.377][INFO]: Done waiting for pending navigations. Status: ok
+[1562253039.377][INFO]: [80eb3dfd610cceca3c1218190d7e9015] RESPONSE GetTitle "Under Construction: Mercury Tours"
+[1562253039.382][INFO]: [80eb3dfd610cceca3c1218190d7e9015] COMMAND FindElements {
+   "using": "tag name",
+   "value": "a"
+}
+[1562253039.382][INFO]: Waiting for pending navigations...
+[1562253039.383][INFO]: Done waiting for pending navigations. Status: ok
+[1562253039.394][INFO]: Waiting for pending navigations...
+[1562253039.395][INFO]: Done waiting for pending navigations. Status: ok
+[1562253039.395][INFO]: [80eb3dfd610cceca3c1218190d7e9015] RESPONSE FindElements [ {
+   "ELEMENT": "0.7975726456132115-1"
+}, {
+   "ELEMENT": "0.7975726456132115-2"
+}, {
+   "ELEMENT": "0.7975726456132115-3"
+}, {
+   "ELEMENT": "0.7975726456132115-4"
+}, {
+   "ELEMENT": "0.7975726456132115-5"
+}, {
+   "ELEMENT": "0.7975726456132115-6"
+}, {
+   "ELEMENT": "0.7975726456132115-7"
+}, {
+   "ELEMENT": "0.7975726456132115-8"
+}, {
+   "ELEMENT": "0.7975726456132115-9"
+}, {
+   "ELEMENT": "0.7975726456132115-10"
+}, {
+   "ELEMENT": "0.7975726456132115-11"
+}, {
+   "ELEMENT": "0.7975726456132115-12"
+} ]
+[1562253039.400][INFO]: [80eb3dfd610cceca3c1218190d7e9015] COMMAND GetElementText {
+   "id": "0.7975726456132115-11"
+}
+[1562253039.400][INFO]: Waiting for pending navigations...
+[1562253039.401][INFO]: Done waiting for pending navigations. Status: ok
+[1562253039.427][INFO]: Waiting for pending navigations...
+[1562253039.428][INFO]: Done waiting for pending navigations. Status: ok
+[1562253039.428][INFO]: [80eb3dfd610cceca3c1218190d7e9015] RESPONSE GetElementText "CONTACT"
+[1562253039.430][INFO]: [80eb3dfd610cceca3c1218190d7e9015] COMMAND GetElementText {
+   "id": "0.7975726456132115-11"
+}
+[1562253039.430][INFO]: Waiting for pending navigations...
+[1562253039.431][INFO]: Done waiting for pending navigations. Status: ok
+[1562253039.440][INFO]: Waiting for pending navigations...
+[1562253039.441][INFO]: Done waiting for pending navigations. Status: ok
+[1562253039.441][INFO]: [80eb3dfd610cceca3c1218190d7e9015] RESPONSE GetElementText "CONTACT"
+[1562253039.444][INFO]: [80eb3dfd610cceca3c1218190d7e9015] COMMAND ClickElement {
+   "id": "0.7975726456132115-11"
+}
+[1562253039.444][INFO]: Waiting for pending navigations...
+[1562253039.445][INFO]: Done waiting for pending navigations. Status: ok
+[1562253039.509][INFO]: Waiting for pending navigations...
+[1562253040.112][INFO]: Done waiting for pending navigations. Status: ok
+[1562253040.113][INFO]: [80eb3dfd610cceca3c1218190d7e9015] RESPONSE ClickElement
+[1562253040.118][INFO]: [80eb3dfd610cceca3c1218190d7e9015] COMMAND GetTitle {
+
+}
+[1562253040.118][INFO]: Waiting for pending navigations...
+[1562253040.119][INFO]: Done waiting for pending navigations. Status: ok
+[1562253040.121][INFO]: Waiting for pending navigations...
+[1562253040.122][INFO]: Done waiting for pending navigations. Status: ok
+[1562253040.122][INFO]: [80eb3dfd610cceca3c1218190d7e9015] RESPONSE GetTitle "Under Construction: Mercury Tours"
+[1562253040.127][INFO]: [80eb3dfd610cceca3c1218190d7e9015] COMMAND FindElements {
+   "using": "tag name",
+   "value": "a"
+}
+[1562253040.127][INFO]: Waiting for pending navigations...
+[1562253040.130][INFO]: Done waiting for pending navigations. Status: ok
+[1562253040.142][INFO]: Waiting for pending navigations...
+[1562253040.142][INFO]: Done waiting for pending navigations. Status: ok
+[1562253040.142][INFO]: [80eb3dfd610cceca3c1218190d7e9015] RESPONSE FindElements [ {
+   "ELEMENT": "0.17366659096734782-1"
+}, {
+   "ELEMENT": "0.17366659096734782-2"
+}, {
+   "ELEMENT": "0.17366659096734782-3"
+}, {
+   "ELEMENT": "0.17366659096734782-4"
+}, {
+   "ELEMENT": "0.17366659096734782-5"
+}, {
+   "ELEMENT": "0.17366659096734782-6"
+}, {
+   "ELEMENT": "0.17366659096734782-7"
+}, {
+   "ELEMENT": "0.17366659096734782-8"
+}, {
+   "ELEMENT": "0.17366659096734782-9"
+}, {
+   "ELEMENT": "0.17366659096734782-10"
+}, {
+   "ELEMENT": "0.17366659096734782-11"
+}, {
+   "ELEMENT": "0.17366659096734782-12"
+} ]
+[1562253040.146][INFO]: [80eb3dfd610cceca3c1218190d7e9015] COMMAND GetElementText {
+   "id": "0.17366659096734782-12"
+}
+[1562253040.146][INFO]: Waiting for pending navigations...
+[1562253040.147][INFO]: Done waiting for pending navigations. Status: ok
+[1562253040.171][INFO]: Waiting for pending navigations...
+[1562253040.173][INFO]: Done waiting for pending navigations. Status: ok
+[1562253040.173][INFO]: [80eb3dfd610cceca3c1218190d7e9015] RESPONSE GetElementText ""
