@@ -41,7 +41,7 @@ public class ScreenshotOnFailure extends BaseTest
 				   
 				   if(driver.getTitle().contains("Register: Mercury Tours"))
 				  {
-					   DateFormat dateFormat=new SimpleDateFormat("dd-MM-YYYY HH-mm-ss");
+					   SimpleDateFormat dateFormat=new SimpleDateFormat("dd-MM-YYYY HH-mm-ss");
 					   Date dt=new Date();
 					   
 					   File srcFile=((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);

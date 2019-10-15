@@ -24,9 +24,11 @@ public class ScreenShot1 extends BaseTest
 		
 		navigateurl("amazonurl");
 		
-		File srcfile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-		FileHandler.copy(srcfile, new File("C:\\Users\\DELL\\Desktop\\img1.png"));
+		//File srcfile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+		//FileHandler.copy(srcfile, new File("C:\\Users\\DELL\\Desktop\\img1.png"));
 				
+		File srcFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+		FileHandler.copy(srcFile, new File("C:\\Users\\DELL\\Desktop\\img1.png"));
 		
 		//File srcfile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 		//FileUtils.copyFile(srcscreen, new File("C:\\Users\\DELL\\Desktop\\gmail.png"));

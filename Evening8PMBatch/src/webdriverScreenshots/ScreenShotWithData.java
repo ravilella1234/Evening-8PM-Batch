@@ -23,13 +23,17 @@ public class ScreenShotWithData extends BaseTest
 		
 		Date dt=new Date();
 		System.out.println(dt);
-		//String dateFormat=dt.toString().replace(":", "_").replace(" ", "_")+".jpeg";
+		String dateFormat=dt.toString().replace(":", "_").replace(" ", "_")+".jpeg";
+		System.out.println(dateFormat);
 		
-		SimpleDateFormat dateFormat=new SimpleDateFormat("dd-MM-YYYY HH-mm-ss");
+		//SimpleDateFormat dateFormat=new SimpleDateFormat("dd-MM-YYYY HH-mm-ss");
 		
 		File scrFile=((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-		FileHandler.copy(scrFile, new File("C:\\Users\\DELL\\Desktop\\"+dateFormat.format(dt)+".png" ));
-		//FileHandler.copy(scrFile, new File("C:\\Users\\DELL\\Desktop\\"+dateFormat));
+		FileHandler.copy(scrFile, new File("C:\\Users\\DELL\\Desktop\\"+dateFormat));
+		
+		
+		//FileHandler.copy(scrFile, new File("C:\\Users\\DELL\\Desktop\\"+dateFormat.format(dt)+".png" ));
+		
 
 	}
 
