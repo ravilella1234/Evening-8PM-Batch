@@ -1,6 +1,6 @@
-[1571240955.147][INFO]: Starting ChromeDriver 77.0.3865.40 (f484704e052e0b556f8030b65b953dce96503217-refs/branch-heads/3865@{#442})
-[1571240955.147][INFO]: Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
-[1571240956.638][INFO]: [f72e0b9a4f89f61e8e8fa16838b165f8] COMMAND InitSession {
+[1571413260.585][INFO]: Starting ChromeDriver 77.0.3865.40 (f484704e052e0b556f8030b65b953dce96503217-refs/branch-heads/3865@{#442})
+[1571413260.585][INFO]: Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1571413261.827][INFO]: [d1414762aece88e64af4075db9760024] COMMAND InitSession {
    "capabilities": {
       "desiredCapabilities": {
          "browserName": "chrome",
@@ -28,9 +28,9 @@
       "pageLoadStrategy": "normal"
    }
 }
-[1571240956.669][INFO]: Populating Preferences file: {
+[1571413261.849][INFO]: Populating Preferences file: {
    "account_id_migration_state": 2,
-   "account_tracker_service_last_update": "13215713758889569",
+   "account_tracker_service_last_update": "13215884886658973",
    "autocomplete": {
       "retention_policy_last_version": 77
    },
@@ -57,9 +57,9 @@
    },
    "countryid_at_install": 18766,
    "data_reduction": {
-      "daily_original_length": [ "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "208967", "454653", "828563" ],
+      "daily_original_length": [ "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "208967", "454653", "873257", "0", "273709" ],
       "daily_original_length_application": "0",
-      "daily_original_length_unknown": "828563",
+      "daily_original_length_unknown": "273709",
       "daily_original_length_via_data_reduction_proxy": [ "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ],
       "daily_original_length_via_data_reduction_proxy_application": "0",
       "daily_original_length_via_data_reduction_proxy_unknown": "0",
@@ -69,12 +69,12 @@
       "daily_original_length_with_data_reduction_proxy_enabled_application": "0",
       "daily_original_length_with_data_reduction_proxy_enabled_unknown": "0",
       "daily_original_length_with_data_reduction_proxy_enabled_video": "0",
-      "daily_received_length": [ "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "208967", "454653", "828563" ],
+      "daily_received_length": [ "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "208967", "454653", "873257", "0", "273709" ],
       "daily_received_length_application": "0",
       "daily_received_length_https_with_data_reduction_proxy_enabled": [ "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ],
       "daily_received_length_long_bypass_with_data_reduction_proxy_enabled": [ "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ],
       "daily_received_length_short_bypass_with_data_reduction_proxy_enabled": [ "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ],
-      "daily_received_length_unknown": "828563",
+      "daily_received_length_unknown": "273709",
       "daily_received_length_unknown_with_data_reduction_proxy_enabled": [ "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ],
       "daily_received_length_via_data_reduction_proxy": [ "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ],
       "daily_received_length_via_data_reduction_proxy_application": "0",
@@ -85,21 +85,42 @@
       "daily_received_length_with_data_reduction_proxy_enabled_application": "0",
       "daily_received_length_with_data_reduction_proxy_enabled_unknown": "0",
       "daily_received_length_with_data_reduction_proxy_enabled_video": "0",
-      "last_update_date": "13215637800000000",
-      "network_properties": {
+      "last_update_date": "13215810600000000",
+      "last_week_services_downstream_background_kb": {
 
       },
-      "this_week_number": 2597,
-      "this_week_services_downstream_foreground_kb": {
+      "last_week_services_downstream_foreground_kb": {
          "112189210": 10,
          "35473769": 29,
-         "35565745": 32,
-         "41424546": 38,
+         "35565745": 33,
+         "41424546": 40,
          "47815025": 0,
          "54845618": 2,
          "67052219": 0,
-         "78917933": 1320,
+         "78917933": 1360,
          "88863520": 0
+      },
+      "last_week_user_traffic_contenttype_downstream_kb": {
+
+      },
+      "network_properties": {
+
+      },
+      "this_week_number": 2598,
+      "this_week_services_downstream_background_kb": {
+
+      },
+      "this_week_services_downstream_foreground_kb": {
+         "35473769": 0,
+         "35565745": 6,
+         "41424546": 12,
+         "47815025": 0,
+         "54845618": 2,
+         "67052219": 0,
+         "78917933": 240
+      },
+      "this_week_user_traffic_contenttype_downstream_kb": {
+
       }
    },
    "default_apps_install_state": 3,
@@ -140,16 +161,16 @@
    },
    "google": {
       "services": {
-         "signin_scoped_device_id": "144626d4-dd71-4889-a485-a2f600091727"
+         "signin_scoped_device_id": "43d0e03e-814f-4b3a-812e-6455ad9cbac3"
       }
    },
-   "http_original_content_length": "36686154",
-   "http_received_content_length": "36686154",
+   "http_original_content_length": "37004557",
+   "http_received_content_length": "37004557",
    "invalidator": {
       "client_id": "hizkBaSVrg7qPNWt8RKRNA=="
    },
    "language_model_counters": {
-      "en": 163
+      "en": 170
    },
    "media": {
       "device_id_salt": "20AA59EE76A48AF9518138FA00A083F4",
@@ -206,10 +227,10 @@
             },
             "client_hints": {
                "https://www.amazon.in:443,*": {
-                  "last_modified": "13215714439544028",
+                  "last_modified": "13215886399103705",
                   "setting": {
                      "client_hints": [ 4, 5, 6 ],
-                     "expiration_time": 1571327239.544013
+                     "expiration_time": 1571499199.10369
                   }
                }
             },
@@ -266,7 +287,7 @@
                   }
                },
                "https://www.amazon.in:443,*": {
-                  "last_modified": "13215714448646624",
+                  "last_modified": "13215886461170539",
                   "setting": {
                      "audiblePlaybacks": 0,
                      "audioContextPlaybacks": 0,
@@ -276,7 +297,7 @@
                      "mediaElementPlaybacks": 0,
                      "mediaPlaybacks": 0,
                      "significantPlaybacks": 0,
-                     "visits": 54,
+                     "visits": 61,
                      "visitsWithMediaTag": 0
                   }
                },
@@ -365,36 +386,36 @@
             },
             "site_engagement": {
                "http://newtours.demoaut.com:80,*": {
-                  "last_modified": "13215712201568703",
+                  "last_modified": "13215884888521890",
                   "setting": {
-                     "lastEngagementTime": 13215683401568508.0,
+                     "lastEngagementTime": 13215824930212224.0,
                      "lastShortcutLaunchTime": 0.0,
                      "pointsAddedToday": 15.0,
                      "rawScore": 15.0
                   }
                },
                "https://www.amazon.in:443,*": {
-                  "last_modified": "13215714439566439",
+                  "last_modified": "13215886399128185",
                   "setting": {
-                     "lastEngagementTime": 13215714439566418.0,
+                     "lastEngagementTime": 13215886399128164.0,
                      "lastShortcutLaunchTime": 0.0,
                      "pointsAddedToday": 15.0,
-                     "rawScore": 9.803466924278668
+                     "rawScore": 9.190943188798446
                   }
                },
                "https://www.bestbuy.com:443,*": {
-                  "last_modified": "13215712201568615",
+                  "last_modified": "13215884888521813",
                   "setting": {
-                     "lastEngagementTime": 13215468536888564.0,
+                     "lastEngagementTime": 13215610065532280.0,
                      "lastShortcutLaunchTime": 0.0,
                      "pointsAddedToday": 3.0,
                      "rawScore": 3.0
                   }
                },
                "https://www.redbus.in:443,*": {
-                  "last_modified": "13215712201568790",
+                  "last_modified": "13215884888521978",
                   "setting": {
-                     "lastEngagementTime": 13215468620910244.0,
+                     "lastEngagementTime": 13215610149553960.0,
                      "lastShortcutLaunchTime": 0.0,
                      "pointsAddedToday": 3.0,
                      "rawScore": 3.0
@@ -426,7 +447,7 @@
       "exit_type": "Normal",
       "exited_cleanly": true,
       "icon_version": 6,
-      "last_engagement_time": "13215714439566418",
+      "last_engagement_time": "13215886399128164",
       "last_time_obsolete_http_credentials_removed": 1571069143.719505,
       "managed_user_id": "",
       "name": "ball",
@@ -464,22 +485,22 @@
       "system_web_app_last_update": "77.0.3865.120"
    }
 }
-[1571240956.744][INFO]: Populating Local State file: {
+[1571413261.881][INFO]: Populating Local State file: {
    "background_mode": {
       "enabled": false
    },
    "hardware_acceleration_mode_previous": true,
    "password_manager": {
       "os_password_blank": false,
-      "os_password_last_changed": "13209453440666472"
+      "os_password_last_changed": "13209453440653044"
    },
    "policy": {
-      "last_statistics_update": "13215713758622361"
+      "last_statistics_update": "13215884886225752"
    },
    "profile": {
       "info_cache": {
          "Default": {
-            "active_time": 1571238599.672859,
+            "active_time": 1571411286.631309,
             "avatar_icon": "chrome://theme/IDR_PROFILE_AVATAR_38",
             "background_apps": false,
             "gaia_id": "",
@@ -514,9 +535,9 @@
       }
    },
    "startup_metric": {
-      "last_startup_timestamp": "13215714435117301",
+      "last_startup_timestamp": "13215886396129046",
       "last_startup_version": "77.0.3865.120",
-      "same_version_startup_count": 28
+      "same_version_startup_count": 35
    },
    "subresource_filter": {
       "ruleset_version": {
@@ -531,7 +552,7 @@
       }
    },
    "tab_stats": {
-      "last_daily_sample": "13215713758876500",
+      "last_daily_sample": "13215884886641738",
       "max_tabs_per_window": 1,
       "total_tab_count_max": 1,
       "window_count_max": 1
@@ -541,99 +562,100 @@
    },
    "uninstall_metrics": {
       "installation_date2": "1559749160",
-      "launch_count": "80",
-      "page_load_count": "367"
+      "launch_count": "87",
+      "page_load_count": "395"
    },
    "updateclientdata": {
       "apps": {
          "aemomkdncapdnfajjbbcbdebjljbpmpj": {
             "cohort": "",
             "cohortname": "",
-            "dlrc": 4669,
-            "pf": "34c8eb8e-f356-48b0-aa64-3868899d2339"
+            "dlrc": 4673,
+            "pf": "88c73bf1-657e-453f-84b2-b2774c2fe617"
          },
          "copjbmjbojbakpaedmpkhmiplmmehfck": {
             "cohort": "1:p1x:",
             "cohorthint": "Auto",
             "cohortname": "Auto",
-            "dlrc": 4669,
-            "pf": "09f74c66-3422-417a-aea1-c29c99121b15"
+            "dlrc": 4673,
+            "pf": "20166d71-a2c8-4935-bfbd-594531ff224e"
          },
          "ehgidpndbllacpjalkiimkbadgjfnnmc": {
             "cohort": "1:ofl:",
             "cohorthint": "stable64",
             "cohortname": "stable64",
-            "dlrc": 4669,
-            "pf": "a2be4919-ee98-44ac-9e0b-944f5e42265f"
+            "dlrc": 4673,
+            "pf": "907eeb6e-32eb-4d92-95ab-b78b791d41bc"
          },
          "gcmjkmgdlgnkkcocmoeiminaijmmjnii": {
             "cohort": "1:bm1:",
             "cohorthint": "M54ToM99",
             "cohortname": "M54ToM99",
-            "dlrc": 4669,
-            "pf": "2cf3063f-94a3-4589-bb2f-549a59acadc4"
+            "dlrc": 4673,
+            "pf": "9a2f44f2-14e3-47a5-8c14-29cdec23437d"
          },
          "giekcmmlnklenlaomppkphknjmnnpneh": {
             "cohort": "1:j5l:",
             "cohorthint": "Auto",
             "cohortname": "Auto",
-            "dlrc": 4669,
-            "pf": "f68cd0f9-206c-470f-b48d-e35dcf8e8e61"
+            "dlrc": 4673,
+            "pf": "5690d6d4-e526-4f0a-a237-d24d76c46ac7"
          },
          "gkmgaooipdjhmangpemjhigmamcehddo": {
             "cohort": "",
             "cohortname": "",
-            "dlrc": 4669,
-            "pf": "6852d863-149d-40a6-926d-ae6bba569d89"
+            "dlrc": 4673,
+            "pf": "3be8b52f-a006-4f96-ae74-c0788ecda89e"
          },
          "hfnkpimlhhgieaddgfemjhofmfblmnib": {
             "cohort": "1:jcl:",
             "cohorthint": "Auto",
             "cohortname": "Auto",
-            "dlrc": 4669,
-            "pf": "e49623ed-89a2-4c4e-91d5-5808ce8cfa70"
+            "dlrc": 4673,
+            "pf": "8d2ea2ed-365b-40af-a8ca-855de75a115e"
          },
          "hnimpnehoodheedghdeeijklkeaacbdc": {
             "cohort": "",
             "cohortname": "",
-            "dlrc": 4669,
-            "pf": "c23d4d46-7f87-40b8-b81d-b9aaa4eea969"
+            "dlrc": 4673,
+            "pf": "065c8ec4-134c-479d-abec-ffbc65d6c2e6"
          },
          "ihnlcenocehgdaegdmhbidjhnhdchfmm": {
             "cohort": "",
             "cohortname": "",
-            "dlrc": 4669,
-            "pf": "7e1df6f3-5b7d-4d69-bac7-f7a36d9cef79"
+            "dlrc": 4673,
+            "pf": "1b580509-92e0-4388-a584-1206936dcf2a"
          },
          "jflookgnkcckhobaglndicnbbgbonegd": {
             "cohort": "1:s7x:",
+            "cohorthint": "Auto",
             "cohortname": "Auto",
-            "dlrc": 4669,
-            "pf": "61c9e7ff-fba6-4ab8-9bb8-26cb7376eb29"
+            "dlrc": 4673,
+            "pf": "796678c0-d242-42cb-bd5d-1ff9154691ca"
          },
          "khaoiebndkojlmppeemjhbpbandiljpe": {
             "cohort": "1:cux:",
             "cohorthint": "Auto",
             "cohortname": "Auto",
-            "dlrc": 4669,
-            "pf": "13f79f4f-fbeb-4e26-bd35-53214d54bd75"
+            "dlrc": 4673,
+            "pf": "e767574e-e2ff-4202-a9ac-32d77605b3de"
          },
          "llkgjffcdpffmhiakmfcdcblohccpfmo": {
-            "dlrc": 4669,
-            "pf": "4acb4087-d579-4a97-9612-2d7d13662e4c"
+            "dlrc": 4673,
+            "pf": "89967eaf-ab17-4331-8820-e0857df79871"
          },
          "mimojjlkmoijpicakmndhoigimigcmbb": {
             "cohort": "1:d0j:",
             "cohorthint": "Chrome [M50... M99]",
             "cohortname": "Chrome [M50... M99]",
-            "dlrc": 4669,
-            "pf": "5f0e3fba-4f3b-4f35-960f-0e1170e3a5ef"
+            "dlrc": 4673,
+            "pf": "dd01920b-498b-4cf0-b1d4-0725645c5818"
          },
          "oimompecagnajdejgnnjijobebaeigek": {
             "cohort": "",
             "cohortname": "",
-            "dlrc": 4669,
-            "pf": "e3100e56-9fe2-461a-94ed-220152ba18e0"
+            "dlrc": 4673,
+            "pf": "41ac5225-0c14-4047-9862-fedf4f240bf1"
          },
          "ojjgnpkioondelmggbekfhllhdaimnho": {
             "cohort": "1:0:",
@@ -648,30 +670,30 @@
       "client_id_timestamp": "1559635038",
       "low_entropy_source3": 3444,
       "machine_id": 4809022,
-      "session_id": 79,
+      "session_id": 86,
       "stability": {
          "breakpad_registration_fail": 0,
          "breakpad_registration_ok": 0,
-         "browser_last_live_timestamp": "13215714448719343",
+         "browser_last_live_timestamp": "13215886461240198",
          "child_process_crash_count": 0,
          "crash_count": 0,
-         "debugger_not_present": 28,
+         "debugger_not_present": 35,
          "debugger_present": 0,
          "deferred_count": 0,
          "discard_count": 5,
          "exited_cleanly": true,
          "extension_renderer_crash_count": 0,
          "extension_renderer_failed_launch_count": 0,
-         "extension_renderer_launch_count": 28,
+         "extension_renderer_launch_count": 35,
          "gpu_crash_count": 0,
          "incomplete_session_end_count": 0,
-         "launch_count": 28,
-         "page_load_count": 136,
+         "launch_count": 35,
+         "page_load_count": 164,
          "plugin_stats2": [  ],
          "renderer_crash_count": 0,
          "renderer_failed_launch_count": 0,
          "renderer_hang_count": 0,
-         "renderer_launch_count": 128,
+         "renderer_launch_count": 164,
          "session_end_completed": true,
          "stats_buildtime": "1570579976",
          "stats_version": "77.0.3865.120-64",
@@ -683,10 +705,10 @@
       "restarted": false
    }
 }
-[1571240956.768][INFO]: Cannot switch to US keyboard layout - some keys may be interpreted incorrectly
-[1571240956.768][INFO]: Launching chrome: "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-infobars --disable-notifications --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-automation --enable-blink-features=ShadowDOMV0 --enable-logging --force-fieldtrials=SiteIsolationExtensions/Control --ignore-certificate-errors --load-extension="C:\Users\DELL\AppData\Local\Temp\scoped_dir12240_370407623\internal" --log-level=0 --no-first-run --password-store=basic --remote-debugging-port=0 --start-maximized --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\DELL\AppData\Local\Google\Chrome\User Data\Profile 5"
-[1571240957.676][INFO]: resolved localhost to ["::1","127.0.0.1"]
-[1571240958.715][INFO]: [f72e0b9a4f89f61e8e8fa16838b165f8] RESPONSE InitSession {
+[1571413261.903][INFO]: Cannot switch to US keyboard layout - some keys may be interpreted incorrectly
+[1571413261.903][INFO]: Launching chrome: "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-infobars --disable-notifications --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-automation --enable-blink-features=ShadowDOMV0 --enable-logging --force-fieldtrials=SiteIsolationExtensions/Control --ignore-certificate-errors --load-extension="C:\Users\DELL\AppData\Local\Temp\scoped_dir8288_1642077063\internal" --log-level=0 --no-first-run --password-store=basic --remote-debugging-port=0 --start-maximized --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\DELL\AppData\Local\Google\Chrome\User Data\Profile 5"
+[1571413262.725][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1571413263.740][INFO]: [d1414762aece88e64af4075db9760024] RESPONSE InitSession {
    "capabilities": {
       "acceptInsecureCerts": false,
       "browserName": "chrome",
@@ -696,7 +718,7 @@
          "userDataDir": "C:\\Users\\DELL\\AppData\\Local\\Google\\Chrome\\User Data\\Profile 5"
       },
       "goog:chromeOptions": {
-         "debuggerAddress": "localhost:55110"
+         "debuggerAddress": "localhost:53402"
       },
       "networkConnectionEnabled": false,
       "pageLoadStrategy": "normal",
@@ -713,56 +735,48 @@
       },
       "unhandledPromptBehavior": "dismiss and notify"
    },
-   "sessionId": "f72e0b9a4f89f61e8e8fa16838b165f8"
+   "sessionId": "d1414762aece88e64af4075db9760024"
 }
-[1571240958.786][INFO]: [f72e0b9a4f89f61e8e8fa16838b165f8] COMMAND Navigate {
+[1571413263.814][INFO]: [d1414762aece88e64af4075db9760024] COMMAND Navigate {
    "url": "https://www.amazon.in"
 }
-[1571240958.786][INFO]: Waiting for pending navigations...
-[1571240959.565][INFO]: Done waiting for pending navigations. Status: ok
-[1571240959.906][INFO]: Waiting for pending navigations...
-[1571240964.409][INFO]: Done waiting for pending navigations. Status: ok
-[1571240964.409][INFO]: [f72e0b9a4f89f61e8e8fa16838b165f8] RESPONSE Navigate
-[1571240964.442][INFO]: [f72e0b9a4f89f61e8e8fa16838b165f8] COMMAND FindElement {
+[1571413263.814][INFO]: Waiting for pending navigations...
+[1571413264.060][INFO]: Done waiting for pending navigations. Status: ok
+[1571413264.354][INFO]: Waiting for pending navigations...
+[1571413267.761][INFO]: Done waiting for pending navigations. Status: ok
+[1571413267.761][INFO]: [d1414762aece88e64af4075db9760024] RESPONSE Navigate
+[1571413267.766][INFO]: [d1414762aece88e64af4075db9760024] COMMAND GetTitle {
+
+}
+[1571413267.766][INFO]: Waiting for pending navigations...
+[1571413267.892][INFO]: Done waiting for pending navigations. Status: ok
+[1571413267.964][INFO]: Waiting for pending navigations...
+[1571413268.004][INFO]: Done waiting for pending navigations. Status: ok
+[1571413268.004][INFO]: [d1414762aece88e64af4075db9760024] RESPONSE GetTitle "Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in"
+[1571413268.029][INFO]: [d1414762aece88e64af4075db9760024] COMMAND FindElement {
    "using": "link text",
    "value": "AmazonBasics"
 }
-[1571240964.442][INFO]: Waiting for pending navigations...
-[1571240964.495][INFO]: Done waiting for pending navigations. Status: ok
-[1571240964.676][INFO]: Waiting for pending navigations...
-[1571240965.039][INFO]: Done waiting for pending navigations. Status: ok
-[1571240965.039][INFO]: [f72e0b9a4f89f61e8e8fa16838b165f8] RESPONSE FindElement {
-   "element-6066-11e4-a52e-4f735466cecf": "f85980cb-ec21-4aaa-a58b-fe46b5209d12"
+[1571413268.029][INFO]: Waiting for pending navigations...
+[1571413268.102][INFO]: Done waiting for pending navigations. Status: ok
+[1571413268.243][INFO]: Waiting for pending navigations...
+[1571413268.247][INFO]: Done waiting for pending navigations. Status: ok
+[1571413268.247][INFO]: [d1414762aece88e64af4075db9760024] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "319e484d-0fea-462d-bf9a-aa4d6bd74ef0"
 }
-[1571240965.065][INFO]: [f72e0b9a4f89f61e8e8fa16838b165f8] COMMAND ExecuteScript {
-   "args": [ {
-      "element-6066-11e4-a52e-4f735466cecf": "f85980cb-ec21-4aaa-a58b-fe46b5209d12"
-   }, "innerHTML" ],
-   "script": "return (function(){return function(){var d=this;function f(a){return\"string\"==typeof a};function h(a,b){this.code=a;this.a=l[a]||m;this.message=b||\"\";a=this.a.replace(/((?:^|\\s+)[a-z])/g,function(a..."
+[1571413268.273][INFO]: [d1414762aece88e64af4075db9760024] COMMAND GetElementText {
+   "id": "319e484d-0fea-462d-bf9a-aa4d6bd74ef0"
 }
-[1571240965.065][INFO]: Waiting for pending navigations...
-[1571240965.067][INFO]: Done waiting for pending navigations. Status: ok
-[1571240965.075][INFO]: Waiting for pending navigations...
-[1571240965.076][INFO]: Done waiting for pending navigations. Status: ok
-[1571240965.077][INFO]: [f72e0b9a4f89f61e8e8fa16838b165f8] RESPONSE ExecuteScript "AmazonBasics"
-[1571240965.086][INFO]: [f72e0b9a4f89f61e8e8fa16838b165f8] COMMAND FindElement {
-   "using": "css selector",
-   "value": "#twotabsearchtextbox"
+[1571413268.273][INFO]: Waiting for pending navigations...
+[1571413268.276][INFO]: Done waiting for pending navigations. Status: ok
+[1571413268.367][INFO]: Waiting for pending navigations...
+[1571413268.368][INFO]: Done waiting for pending navigations. Status: ok
+[1571413268.368][INFO]: [d1414762aece88e64af4075db9760024] RESPONSE GetElementText "AmazonBasics"
+[1571413268.374][INFO]: [d1414762aece88e64af4075db9760024] COMMAND Screenshot {
+
 }
-[1571240965.086][INFO]: Waiting for pending navigations...
-[1571240965.087][INFO]: Done waiting for pending navigations. Status: ok
-[1571240965.106][INFO]: Waiting for pending navigations...
-[1571240965.106][INFO]: Done waiting for pending navigations. Status: ok
-[1571240965.106][INFO]: [f72e0b9a4f89f61e8e8fa16838b165f8] RESPONSE FindElement {
-   "element-6066-11e4-a52e-4f735466cecf": "338aa995-d2d8-42e5-8807-e57b8e337a5c"
-}
-[1571240965.119][INFO]: [f72e0b9a4f89f61e8e8fa16838b165f8] COMMAND TypeElement {
-   "id": "338aa995-d2d8-42e5-8807-e57b8e337a5c",
-   "text": "sony",
-   "value": [ "s", "o", "n", "y" ]
-}
-[1571240965.119][INFO]: Waiting for pending navigations...
-[1571240965.120][INFO]: Done waiting for pending navigations. Status: ok
-[1571240965.699][INFO]: Waiting for pending navigations...
-[1571240965.745][INFO]: Done waiting for pending navigations. Status: ok
-[1571240965.745][INFO]: [f72e0b9a4f89f61e8e8fa16838b165f8] RESPONSE TypeElement
+[1571413268.375][INFO]: Waiting for pending navigations...
+[1571413268.376][INFO]: Done waiting for pending navigations. Status: ok
+[1571413269.069][INFO]: Waiting for pending navigations...
+[1571413269.070][INFO]: Done waiting for pending navigations. Status: ok
+[1571413269.071][INFO]: [d1414762aece88e64af4075db9760024] RESPONSE Screenshot "iVBORw0KGgoAAAANSUhEUgAABVYAAAJlCAYAAAAxcKmfAAAAAXNSR0IArs4c6QAAIABJREFUeJzs3Xd4FNX+x/H37Gaz6RXSKKkkQCBAqEF6FxDBggpYEMRe8GJXFMu1g/5siKJXrGBHUEGkSxMChJaEBAglpJBAetndmd8fS5ZsChASCOX7ep57n8zOzJmzs7uRf..."

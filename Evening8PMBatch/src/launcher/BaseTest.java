@@ -1,12 +1,17 @@
 package launcher;
 
+import java.io.File;
 import java.io.FileInputStream;
+import java.io.IOException;
+import java.util.Date;
 import java.util.Properties;
 
 import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.By;
+import org.openqa.selenium.OutputType;
 import org.openqa.selenium.PageLoadStrategy;
 import org.openqa.selenium.Proxy;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -22,11 +27,13 @@ import org.openqa.selenium.firefox.internal.ProfilesIni;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.ie.InternetExplorerDriverService;
 import org.openqa.selenium.ie.InternetExplorerOptions;
+import org.openqa.selenium.io.FileHandler;
 import org.openqa.selenium.remote.CapabilityType;
 import org.openqa.selenium.remote.DesiredCapabilities;
 
 import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
+import com.relevantcodes.extentreports.LogStatus;
 
 public class BaseTest 
 {
@@ -38,6 +45,7 @@ public class BaseTest
 	public static String logPath=projectPath+"/log4j.properties";
 	public static Properties p;
 	public static Properties or;
+	public static String screenshotFileName=null;
 	
 	public static ExtentReports report = ExtentManager.getInstance();
 	public static ExtentTest test;
@@ -195,6 +203,9 @@ public class BaseTest
 		return element;
 		
 	}
+	
+	
+	
 
 
 	public static void selectValue(String locatorKey, String dropItem) 
@@ -203,4 +214,60 @@ public class BaseTest
 		getElement(locatorKey).sendKeys(or.getProperty(dropItem));
 	}
 
+	
+	// ************************ Verifications **************************
+	public static boolean verifyTitle(String expectedTitle)
+	{
+		String actualTitle = driver.getTitle();
+		if(actualTitle.equals(expectedTitle))
+			return true;
+		else
+			return false;
+		
+	}
+	
+	
+	public static boolean verifyElement(String expectedLink)
+	{
+		String actualLink = driver.findElement(By.linkText("AmazonBasics")).getText();
+		if(actualLink.equals(expectedLink))
+			return true;
+		else
+			return false;
+	}
+	
+	
+	// ********************  Reporting   ************************************
+	
+	public static void reportPass(String passMesage) 
+	{
+		test.log(LogStatus.PASS, passMesage);
+		
+	}
+
+	public static void reportFailure(String failMessage) 
+	{
+		
+		test.log(LogStatus.FAIL, failMessage);
+		takeScreenShot();
+	}
+
+	
+	public static void takeScreenShot() 
+	{
+		Date dt=new Date();
+		screenshotFileName = dt.toString().replace(":", "_").replace(" ", "_")+".png";
+		File scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
+		try 
+		{
+			FileHandler.copy(scrFile, new File(projectPath+"//failure//"+screenshotFileName));
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+		
+		//put screen shot file in extent reports
+		test.log(LogStatus.INFO, "Screenshot --> "+ test.addScreenCapture(projectPath+"//failure//"+screenshotFileName));
+	}
+	
+	
 }

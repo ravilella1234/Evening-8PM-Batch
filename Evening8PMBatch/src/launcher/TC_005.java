@@ -1,10 +1,6 @@
 package launcher;
 
-import javax.swing.SortingFocusTraversalPolicy;
-
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
-import org.testng.Assert;
 import org.testng.asserts.SoftAssert;
 
 public class TC_005 extends BaseTest
